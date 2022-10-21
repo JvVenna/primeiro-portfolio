@@ -6,12 +6,11 @@
 }
 
 body {
-    background: linear-gradient(180deg, #3b3b3b 10%, #010101 99.99%, #000000 100%);
+    background: linear-gradient(180deg, rgba(65, 105, 225) 20%, #000000 52.92%, #010101 99.99%, #000000 100%);
     background-color: gray;
 }
 
 /*--------------------fontes--------------------*/
-
 
 @font-face {
     font-family: montserif;
@@ -24,8 +23,8 @@ body {
 }
 
 @font-face {
-    font-family: montserratalternativa;
-    src: url(/utilitários/Fontes/montserrat/MontserratAlternates-Regular.otf);
+    font-family: montserifbold;
+    src: url(/utilitários/Fontes/montserif/Fontfabric\ -\ Mont\ Heavy\ DEMO.otf);
 }
 
 @font-face {
@@ -43,37 +42,35 @@ body {
     src: url(/utilitários/Fontes/sansation/Sansation_Light.ttf);
 }
 
-
 /*----------------------------Menu----------------------------*/
 
 nav {
     display: flex;
     align-items: center;
+    background-color: rgba(65, 105, 225, 0.7);
+    width: 100vw;
     position: fixed;
     top: 0;
-    background-color: #3b3b3bbb;
-    width: 100vw;
 }
-
-
 
 h1 {
     display: flex;
-    font-family: montserratalternativa;
-    width: 100%;
-    justify-content: center;
-    margin: 0.5em 0em 0em 0em;
-    padding-bottom: 0.5em;
+    font-family: montserrat;
+    font-weight: bold;
+    color: black;
     border-bottom: 1px solid rgba(255, 255, 255, 0.2);
-
+    justify-content: center;
+    padding-bottom: 0.5em;
+    width: 100%;
+    margin: 0.5em 0em 0em 0em;
 }
 
 .menuSocial {
     display: flex;
+    justify-content: space-between;
     position: absolute;
     right: 5em;
     width: 8em;
-    justify-content: space-between;
 }
 
 .imgSocial {
@@ -83,16 +80,25 @@ h1 {
 /*----------------------------intro----------------------------*/
 
 #intro {
-    margin: 1em 20% 1em 7.5%;
-    line-height: 1.5em;
     font-size: 4em;
     font-family: mssansserif;
+    color: black;
+    line-height: 1.5em;
+    padding: 1em 20% 1em 7.5%;
+}
+
+#intro2 {
+    display: flex;
+    justify-content: flex-end;
+    font-family: Arial, Helvetica, sans-serif;
+    color: black;
+    text-decoration: underline;
+    padding: 1em 5vw 1vw 2vw;
 }
 
 #introImg {
     display: flex;
     justify-content: center;
-
 }
 
 .introImg-img {
@@ -106,27 +112,24 @@ h1 {
     display: flex;
     justify-content: space-between;
     margin: 8em 2%;
-    background-color: #3b3b3b;
 }
 
 .textBox {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    margin: 0.2em 0 1.5em 0;
+    font-size: 1.2em;
     font-family: quicksand;
-    font-size: 1.3em;
+    padding-bottom: 1.5em;
 }
 
 .titleBox {
-    margin-bottom: 0.5em;
+    font-size: 1.2em;
     font-family: montserif;
     font-weight: bold;
-    font-size: 1.4em;
 }
 
 /*--------------------allBoxes--------------------*/
-
 
 .containerImgBox {
     display: flex;
@@ -136,102 +139,131 @@ h1 {
 }
 
 .imgBox {
+    border-radius: 0.2em;
     width: 45vw;
-    border-radius: 1em;
 }
-
-
 
 /*----------------------------box2----------------------------*/
 
 #box2 {
     display: flex;
     justify-content: space-between;
-    background-color: #3b3b3b;
     margin: 5em 2vw;
 }
 
 .textBox2 {
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
-    height: 19vw;
-    font-family: quicksand;
-    font-size: 1.3em;
     text-align: right;
+    justify-content: space-between;
+    font-size: 1.2em;
+    font-family: quicksand;
+    padding-bottom: 1.5em;
 }
 
 .titleBox2 {
+    font-size: 1.4em;
     font-family: montserif;
     font-weight: bold;
-    font-size: 1.4em;
+    margin-bottom: 0.5em;
 }
 
 /*----------------------------box4----------------------------*/
+
 #titleBox4 {
-    margin: 1em 2vw 1vw 2vw;
-    padding-bottom: 1em;
-    font-size: 1.7em;
-    border-bottom: 1px solid rgba(255, 255, 255, 0.3);
     text-align: center;
+    font-size: 1.7em;
     font-family: quicksand;
     font-weight: bold;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.3);
+    padding-bottom: 1em;
+    margin: 1em 2vw 1vw 2vw;
 }
 
 #box4 {
     display: flex;
-    text-align: center;
     flex-direction: column;
+    text-align: center;
     font-family: sansation;
     font-size: 1.2em;
-
 }
 
 .contentBox4 {
     display: flex;
     flex-direction: column;
     text-align: left;
-    margin: 1vw 2vw;
     line-height: 2em;
+    margin: 1vw 2vw;
 }
 
 .box4Right {
     display: flex;
     flex-direction: column;
     text-align: right;
-    margin: 1vw 2vw;
     line-height: 2em;
+    margin: 1vw 2vw;
+    padding-bottom: 2.5em;
+}
+
+/*--------------------Download-CV--------------------*/
+
+#alignButton {
+    text-align: center;
+    width: 100%;
+    padding-bottom: 4em;
+}
+
+.buttonCv {
+    align-self: center;
+    justify-content: center;
+    box-shadow: 0px 0px 5px 2px rgba(255, 255, 255, 0.4);
+    border-radius: 5px;
+    background-color: royalblue;
+    padding: 1.5em;
+}
+
+.buttonCv-a {
+    text-decoration: none;
+    color: black;
+    font-size: 1.1em;
+    font-family: montserifbold;
+    font-weight: bolder;
 }
 
 /*----------------------------thankfull----------------------------*/
 
 #thankfull {
-    font-size: 3em;
-    font-family: mssansserif;
     display: flex;
     justify-content: center;
-    padding: 2em;
+    text-align: center;
+    font-size: 3em;
+    font-family: mssansserif;
+    padding: 0 0 2em 0;
 }
 
 /*----------------------------Copyright----------------------------*/
 
 footer {
     display: flex;
-    justify-content: center;
     padding-bottom: 2.5em;
+    width: 100%;
+    justify-content: center;
 }
 
 #menuSocialFooter {
     display: flex;
-    justify-content: space-between;
-    width: 100%;
-    margin: 0.4em 80% 0 5%;
+    justify-content: space-evenly;
+    left: 2em;
+    align-items: center;
+    width: 20vw;
+    position: absolute;
+    padding-top: 0.5em;
 }
 
 .imgSocialFooter {
-    width: 2em;
     display: flex;
     align-items: flex-end;
+    width: 2em;
 }
 
 .imgLogo {
@@ -242,17 +274,91 @@ footer {
 .copyright {
     display: flex;
     align-items: center;
-    font-family: montserrat;
-    font-size: 1.5em;
-    position: absolute;
     justify-content: center;
+    align-self: center;
+    font-size: 1.5em;
+    font-family: montserrat;
+    width: max-content;
 }
 
-/*----------------------------MediaQuery----------------------------*/
+.logoNome {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    backgrouncolor: aqua;
+    font-size: 1.5em;
+    font-family: montserrat;
+}
+
+/*----------------------------MediaQuery-1000PX----------------------------*/
+
+@media(max-width:1000px) {
+
+    /*--------------------intro--------------------*/
+
+    #intro {
+        font-size: 5vw;
+        padding: 2em 2em 1em 2vw;
+    }
+
+    .introImg {
+        margin: 0;
+    }
+
+    .introImg-img {
+        border-radius: 5px;
+        width: 95vw;
+        padding: 0%;
+        margin: 0;
+    }
+
+    /*--------------------box-1/3--------------------*/
+
+    #box {
+        justify-content: space-between;
+    }
+
+    .textBox {
+        line-height: 1.5em;
+        font-size: 1em;
+    }
+
+    /*--------------------allBoxes--------------------*/
+
+    .containerImgBox {
+        font-size: 0.7em;
+    }
+
+    .imgBox {
+        padding: 0%;
+        border-radius: 5px;
+    }
+
+    /*--------------------box2--------------------*/
+
+    .textBox2 {
+        font-size: 1em;
+    }
+
+    /*--------------------footer--------------------*/
+    footer {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    #menuSocialFooter {
+        position: sticky;
+        margin-bottom: 2vw;
+        width: 15em;
+    }
+
+    .copyright {}
+}
+
+/*----------------------------MediaQuery-800PX----------------------------*/
 
 @media (max-width:800px) {
-
-    * {}
 
     /*--------------------Menu--------------------*/
 
@@ -270,19 +376,18 @@ footer {
 
     #intro {
         font-size: 7vw;
-        margin: 2em 2vw 1em 1vw;
         width: fit-content;
+        padding: 2em 1vw 1em 1vw;
     }
 
     .introImg {
         padding: 0%;
-
     }
 
     .introImg-img {
-        padding: 0%;
-        width: 95vw;
         border-radius: 5px;
+        width: 95vw;
+        padding: 0%;
         margin-bottom: 5em;
     }
 
@@ -291,24 +396,21 @@ footer {
     #box {
         flex-direction: column;
         text-align: left;
-        margin: 0;
         align-items: center;
+        margin: 0;
     }
 
     .textBox {
-        padding: 0%;
-        margin: 2em 0 1em 0;
         text-align: left;
-        width: 89vw;
-        line-height: 1.5em;
-
+        font-size: 1.2em;
+        line-height: 2em;
+        width: 95vw;
+        padding-bottom: 1em;
     }
 
     .titleBox {}
 
-    .containerImgBox1-3 {
-        margin-bottom: 5em;
-    }
+    .containerImgBox1-3 {}
 
     /*--------------------allBoxes--------------------*/
 
@@ -317,10 +419,13 @@ footer {
     }
 
     .imgBox {
-        width: 90vw;
+        width: 95vw;
         padding: 0%;
         border-radius: 5px;
+    }
 
+    .alignPhotos {
+        padding-bottom: 5em;
     }
 
     /*--------------------box2--------------------*/
@@ -332,12 +437,11 @@ footer {
     }
 
     .textBox2 {
-        padding: 0%;
-        margin: 2em 0 0em 0;
         text-align: right;
-        width: 89vw;
-        line-height: 1.5em;
-
+        font-size: 1.2em;
+        line-height: 2em;
+        width: 95vw;
+        padding-top: 1em;
     }
 
     .titleBox2 {}
@@ -358,10 +462,7 @@ footer {
 
     /*--------------------footer--------------------*/
 
-    footer {
-
-        background-color: #3b3b3b;
-    }
+    footer {}
 
     #menuSocialFooter {}
 
@@ -369,5 +470,44 @@ footer {
 
     .imgLogo {}
 
-    .copyright {}
+    .copyright {
+        flex-direction: row;
+    }
+}
+
+/*----------------------------MediaQuery-800PX----------------------------*/
+
+@media (max-width:600px) {
+
+    /*--------------------footer--------------------*/
+
+    .copyright {
+        display: flex;
+        flex-direction: column;
+    }
+
+}
+
+/*----------------------------MediaQuery-500PX----------------------------*/
+
+@media (max-width:500px) {
+    .textBox {
+        line-height: 1.6em;
+        font-size: 1.1em;
+    }
+
+    .textBox2 {
+        line-height: 1.6em;
+        font-size: 1.1em;
+    }
+
+    .contentBox4 {
+        line-height: 1.5em;
+        font-size: 1em;
+    }
+
+    .box4Right {
+        line-height: 1.5em;
+        font-size: 1em;
+    }
 }
