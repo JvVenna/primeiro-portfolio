@@ -1,0 +1,92 @@
+/*----------------------------Menu----------------------------*/
+
+nav {
+}
+
+h1 {}
+
+/*----------------------------intro----------------------------*/
+
+#intro {}
+
+.textIntro {}
+
+.imgIntro {}
+
+/*----------------------------box1-3----------------------------*/
+
+#box1-3 {}
+
+.titleBox1-3 {}
+
+.subtitleBox1-3 {}
+
+.containerTextBox1-3 {}
+
+.textBox1-3 {}
+
+.containerImgBox1-3 {}
+
+.containerImgBox1-3-img {}
+
+.infoContainerImgBox1-3 {}
+
+/*----------------------------box2----------------------------*/
+
+#box2 {}
+
+.titleBox2 {}
+
+.containerTextBox2 {}
+
+.textBox2 {}
+
+.containerImgBox2 {}
+
+.containerImgBox2-img {}
+
+.infoContainerImgBox2 {}
+
+/*----------------------------box4----------------------------*/
+
+#box4 {}
+
+.titleBox4 {}
+
+.listLeftBox4 {}
+
+.textListLeftBox4 {}
+
+.titleListRightBox4 {}
+
+.listRightBox4 {}
+
+
+/*--------------------download-CV--------------------*/
+
+#downloadCv {}
+
+
+/*--------------------thankfull--------------------*/
+
+#thankfull {}
+
+/*----------------------------footer----------------------------*/
+
+footer {}
+
+#istSocial{}
+
+.imgSocial-li{}
+
+.imgSocial-img{}
+
+/*--------------------copyright--------------------*/
+
+#containerCopyright{}
+
+.logo_nomeFantasia{}
+
+.logo-img{}
+
+.nomeFantasia{}

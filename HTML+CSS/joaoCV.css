@@ -1,0 +1,438 @@
+* {
+    text-decoration: none;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background-color: black;
+}
+
+/*--------------------fontes--------------------*/
+
+@font-face {
+    font-family: montserif;
+    src: url(/utilitários/Fontes/montserif/Fontfabric\ -\ Mont\ ExtraLight\ DEMO.otf);
+}
+
+@font-face {
+    font-family: montserrat;
+    src: url(/utilitários/Fontes/montserrat/Montserrat-Light.otf);
+}
+
+@font-face {
+    font-family: montserifbold;
+    src: url(/utilitários/Fontes/montserif/Fontfabric\ -\ Mont\ Heavy\ DEMO.otf);
+}
+
+@font-face {
+    font-family: mssansserif;
+    src: url(/utilitários/Fontes/mssansserif/microsoft-sans-serif.ttf);
+}
+
+@font-face {
+    font-family: quicksand;
+    src: url(/utilitários/Fontes/quicksand/Quicksand_Light.otf);
+}
+
+@font-face {
+    font-family: sansation;
+    src: url(/utilitários/Fontes/sansation/Sansation_Light.ttf);
+}
+
+/*----------------------------Menu----------------------------*/
+
+nav {
+    display: flex;
+    align-items: center;
+    background-color: rgba(0, 0, 0, 0.1);
+    width: 100vw;
+    position: fixed;
+    top: 0;
+}
+
+h1 {
+    display: flex;
+    font-family: montserrat;
+    font-weight: bold;
+    color: white;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+    justify-content: center;
+    padding-bottom: 0.5em;
+    padding: 0.5em 0 0.5em 0;
+    width: 100%;
+    margin: 0em 10em;
+}
+
+/*----------------------------intro----------------------------*/
+
+#intro {}
+
+.textIntro {
+    display: flex;
+    align-items: center;
+    line-height: 120px;
+    font-weight: 590;
+    font-size: 80px;
+    font-family: mssansserif;
+    color: #FFFFFF;
+    padding: 10% 20% 10% 2%;
+}
+
+.imgIntro {
+    width: 100%;
+    margin-bottom: 20em;
+}
+
+/*----------------------------box1-3----------------------------*/
+
+#box1-3 {
+    font-family: quicksand;
+    padding: 0 1vw 0em 1vw;
+}
+
+.titleBox1-3 {
+    display: flex;
+    align-items: center;
+    font-size: 2em;
+    font-family: 'Quicksand';
+    color: white;
+    font-weight: bolder;
+    line-height: 56px;
+}
+
+.subtitleBox1-3 {
+    display: flex;
+    align-items: center;
+    line-height: 56px;
+    font-size: 1.8em;
+    color: white;
+    font-weight: bold;
+}
+
+.containerTextBox1-3 {
+    padding-bottom: 2em;
+}
+
+.textBox1-3 {
+    display: flex;
+    align-items: center;
+    font-size: 1.6em;
+    color: white;
+    font-weight: 500;
+    line-height: 56px;
+}
+
+.containerImgBox1-3 {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    width: 100%;
+    padding-bottom: 15em;
+}
+
+.containerImgBox1-3-div {
+    display: flex;
+    justify-content: flex-end;
+    background: linear-gradient(90deg, #000000 0.02%, #0029FF 57.86%);
+    width: 100%;
+}
+
+.containerImgBox1-3-img {
+    width: 900px;
+}
+
+.infoContainerImgBox1-3 {
+    color: white;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.box3 {
+    padding-bottom: 8em;
+}
+
+/*----------------------------box2----------------------------*/
+
+#box2 {
+    padding: 0 1vw 10em 1vw;
+    font-family: Quicksand;
+}
+
+.box1-3_2 {
+    background-color: #ffffff;
+}
+
+.titleBox2 {
+    text-align: end;
+    font-size: 2em;
+    color: white;
+    font-weight: bolder;
+    line-height: 56px;
+}
+
+.containerTextBox2 {
+    padding-bottom: 2em;
+}
+
+.textBox2 {
+    text-align: end;
+    font-size: 1.6em;
+    color: white;
+    font-weight: 500;
+    line-height: 56px;
+}
+
+.containerImgBox2 {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    width: 100%;
+}
+
+.containerImgBox2-div {
+    display: flex;
+    justify-content: flex-start;
+    background: linear-gradient(-90deg, #000000 0.02%, #0029FF 57.86%);
+    width: 100%;
+}
+
+.containerImgBox2-img {
+    width: 900px;
+}
+
+.infoContainerImgBox2 {
+    color: white;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+/*----------------------------box4----------------------------*/
+
+#box4 {
+    font-family: sansation;
+    color: white;
+    padding: 0 3em;
+}
+
+.titleBox4 {
+    text-align: center;
+    font-size: 2em;
+    font-family: montserrat;
+    color: white;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+    padding-bottom: 1em;
+}
+
+.listLeftBox4 {
+    font-size: 1.5em;
+    padding: 2em 0;
+    line-height: 2em;
+}
+
+.textListLeftBox4 {}
+
+.titleListRightBox4 {
+    font-size: 1.7em;
+    text-align: end;
+    padding-bottom: 0.5em;
+}
+
+.listRightBox4 {
+    font-size: 1.5em;
+    text-align: end;
+    line-height: 2em;
+    padding-bottom: 5em;
+}
+
+
+/*--------------------download-CV--------------------*/
+.alignButton {
+    text-align: center;
+    width: 100%;
+    padding-bottom: 8em;
+}
+
+#downloadCv {
+    font-size: 1em;
+    font-family: montserifbold;
+    text-align: center;
+    border-radius: 2em;
+    padding: 1em 2em;
+    cursor: pointer;
+}
+
+/*--------------------thankfull--------------------*/
+
+#thankfull {
+    text-align: center;
+    font-size: 3.5em;
+    font-family: mssansserif;
+    color: white;
+    padding-bottom: 3em;
+}
+
+/*----------------------------footer----------------------------*/
+
+footer {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding-bottom: 2em;
+}
+
+#listSocial {
+    display: flex;
+    position: absolute;
+    justify-content: space-between;
+    left: 7em;
+    width: 10em;
+    padding-top: 0.5em;
+}
+
+.imgSocial-li {}
+
+.imgSocial-img {
+    width: 30px;
+}
+
+/*--------------------copyright--------------------*/
+
+#containerCopyright {
+    display: flex;
+    flex-direction: row;
+    font-size: 1.7em;
+    font-family: montserrat;
+    color: white;
+    align-items: center;
+    font-weight: bold;
+}
+
+.logo_nomeFantasia {
+    display: flex;
+    justify-content: left;
+    align-items: center;
+}
+
+.logo-img {
+    height: 1.5em;
+    padding-right: 0.2em;
+}
+
+.nomeFantasia {}
+
+
+/*=================================================================================================================*/
+
+
+@media(max-width:100px) {
+    /*----------------------------Menu----------------------------*/
+
+    nav {
+        display: flex;
+        align-items: center;
+        background-color: rgba(0, 0, 0, 0.6);
+        width: 100vw;
+        position: fixed;
+        top: 0;
+    }
+
+    h1 {
+        display: flex;
+        font-family: montserrat;
+        font-weight: bold;
+        color: white;
+        border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+        justify-content: center;
+        padding-bottom: 0.5em;
+        width: 100%;
+        margin: 0.5em 0em 0em 0em;
+    }
+
+    /*----------------------------intro----------------------------*/
+
+    #intro {}
+
+    .textIntro {}
+
+    .imgIntro {
+        display: none;
+    }
+
+    /*----------------------------box1-3----------------------------*/
+
+    #box1-3 {}
+
+    .titleBox1-3 {}
+
+    .subtitleBox1-3 {}
+
+    .containerTextBox1-3 {}
+
+    .textBox1-3 {}
+
+    .containerImgBox1-3 {}
+
+    .containerImgBox1-3-img {}
+
+    .infoContainerImgBox1-3 {}
+
+    /*----------------------------box2----------------------------*/
+
+    #box2 {}
+
+    .titleBox2 {}
+
+    .containerTextBox2 {}
+
+    .textBox2 {}
+
+    .containerImgBox2 {}
+
+    .containerImgBox2-img {}
+
+    .infoContainerImgBox2 {}
+
+    /*----------------------------box4----------------------------*/
+
+    #box4 {}
+
+    .titleBox4 {}
+
+    .listLeftBox4 {}
+
+    .textListLeftBox4 {}
+
+    .titleListRightBox4 {}
+
+    .listRightBox4 {}
+
+
+    /*--------------------download-CV--------------------*/
+
+    #downloadCv {}
+
+
+    /*--------------------thankfull--------------------*/
+
+    #thankfull {}
+
+    /*----------------------------footer----------------------------*/
+
+    footer {}
+
+    #istSocial {}
+
+    .imgSocial-li {}
+
+    .imgSocial-img {}
+
+    /*--------------------copyright--------------------*/
+
+    #containerCopyright {}
+
+    .logo_nomeFantasia {}
+
+    .logo-img {}
+
+    .nomeFantasia {}
+}

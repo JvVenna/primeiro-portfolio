@@ -1,0 +1,86 @@
+* {
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+}
+
+body {
+    background-color: black;
+    font-family: sans-serif;
+    background-image: url(/utilitários/img/imgIntro.jpg);
+    background-position: right bottom;
+    background-size: 100% auto;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+}
+
+/*--------------------fonte--------------------*/
+
+/*----------------------------nav----------------------------*/
+
+h1 {
+    color: white;
+    text-align: end;
+    padding: 1em;
+}
+
+/*----------------------------opçõesMenu----------------------------*/
+
+#menu {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    width: min-content;
+    white-space: nowrap;
+    line-height: 8vw;
+    position: absolute;
+    left: 10vw;
+    top: 10vw;
+    font-size: 3em;
+}
+
+h2 {
+    color: rgb(255, 255, 255);
+
+    text-align: center;
+}
+
+.option2 {
+    color: red;
+}
+
+/*----------------------------redesSociais----------------------------*/
+
+#social {
+
+    display: flex;
+    justify-content: space-between;
+    width: 5em;
+    padding-top: 35vw;
+    padding-left: 5vw;
+}
+
+.social-img {
+    width: 2em;
+}
+
+/*=====================mediaQuery==================================*/
+
+@media (max-width:1000px) {
+    #menu {
+        position: sticky;
+        padding-top: 10vw;
+        line-height: 15vw;
+    }
+
+    #social {padding-top: 20vw;}
+}
+
+/*=====================mediaQuery==================================*/
+
+@media (max-width:600px) {
+    #menu, h1 {
+        font-size: 7vw;
+        line-height: 20vw;
+    }
+}
