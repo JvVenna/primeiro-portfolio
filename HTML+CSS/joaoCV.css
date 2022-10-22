@@ -82,7 +82,7 @@ h1 {
 
 .imgIntro {
     width: 100%;
-    margin-bottom: 20em;
+    padding-bottom: 20em;
 }
 
 /*----------------------------box1-3----------------------------*/
@@ -99,7 +99,6 @@ h1 {
     font-family: 'Quicksand';
     color: white;
     font-weight: bolder;
-    line-height: 56px;
 }
 
 .subtitleBox1-3 {
@@ -284,7 +283,7 @@ footer {
     display: flex;
     position: absolute;
     justify-content: space-between;
-    left: 7em;
+    left: 3em;
     width: 10em;
     padding-top: 0.5em;
 }
@@ -324,7 +323,7 @@ footer {
 /*=================================================================================================================*/
 
 
-@media(max-width:100px) {
+@media(max-width:1000px) {
     /*----------------------------Menu----------------------------*/
 
     nav {
@@ -352,27 +351,38 @@ footer {
 
     #intro {}
 
-    .textIntro {}
-
-    .imgIntro {
-        display: none;
+    .textIntro {
+        font-size: 70px;
+        padding: 15% 5% 15% 1%;
+        line-height: 1.5em;
     }
+
+    .imgIntro {}
 
     /*----------------------------box1-3----------------------------*/
 
     #box1-3 {}
 
-    .titleBox1-3 {}
+    .titleBox1-3 {
+        font-size: 1.5em
+    }
 
-    .subtitleBox1-3 {}
+    .subtitleBox1-3 {
+        font-size: 1.45em;
+    }
 
     .containerTextBox1-3 {}
 
-    .textBox1-3 {}
+    .textBox1-3 {
+        font-size: 1.3em;
+        line-height: 1.8em;
+    }
 
     .containerImgBox1-3 {}
 
-    .containerImgBox1-3-img {}
+    .containerImgBox1-3-img {
+        width: 100%;
+    }
 
     .infoContainerImgBox1-3 {}
 
@@ -380,15 +390,23 @@ footer {
 
     #box2 {}
 
-    .titleBox2 {}
+    .titleBox2 {
+
+        font-size: 1.5em
+    }
 
     .containerTextBox2 {}
 
-    .textBox2 {}
+    .textBox2 {
+        font-size: 1.3em;
+        line-height: 1.8em;
+    }
 
     .containerImgBox2 {}
 
-    .containerImgBox2-img {}
+    .containerImgBox2-img {
+        width: 100%;
+    }
 
     .infoContainerImgBox2 {}
 
@@ -418,9 +436,16 @@ footer {
 
     /*----------------------------footer----------------------------*/
 
-    footer {}
+    footer {
+        display: flex;
+        flex-direction: column;
+    }
 
-    #istSocial {}
+    #listSocial {
+        position: sticky;
+        align-self: center;
+        padding-bottom: 1.5em;
+    }
 
     .imgSocial-li {}
 
@@ -428,11 +453,90 @@ footer {
 
     /*--------------------copyright--------------------*/
 
-    #containerCopyright {}
+    #containerCopyright {
+        align-self: center;
+    }
 
     .logo_nomeFantasia {}
 
     .logo-img {}
 
     .nomeFantasia {}
+}
+
+/*=====================mediaQuery==================================*/
+
+@media (max-width:800px) {
+    .textIntro {
+        font-size: 9vw;
+    }
+}
+
+/*=================================================================================================================*/
+
+
+@media(max-width:600px) {
+
+
+
+
+    .textIntro {
+        font-size: 10vw;
+        padding: 20% 0;
+    }
+
+    .imgIntro {
+        padding-bottom: 10em;
+    }
+
+    #box1-3 {
+        padding: 0;
+    }
+
+    .titleBox1-3 {
+        font-family: Arial, Helvetica, sans-serif;
+    }
+
+    .subtitleBox1-3 {
+        font-family: arial;
+        font-weight: lighter;
+    }
+
+    .textBox1-3 {
+        font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+        font-weight: 400;
+    }
+
+
+    #box2 {
+        padding: 0%;
+        padding-bottom: 10em;
+    }
+
+    .titleBox2 {
+        font-family: Arial, Helvetica, sans-serif;
+    }
+
+    .textBox2 {
+        font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+        font-weight: 400;
+    }
+
+    #box4 {
+        padding: 0 1%;
+    }
+
+    .titleBox4 {
+        font-size: 1.6em;
+    }
+
+    .listRightBox4, .titleListRightBox4, .listLeftBox4 {
+        font-size: 1.5em;
+    }
+
+    #thankfull {
+        font-size: 2em;
+    }
+
+    #containerCopyright {flex-direction: column;}
 }
