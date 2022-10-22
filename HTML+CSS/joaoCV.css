@@ -37,6 +37,16 @@ body {
 }
 
 @font-face {
+    font-family: quicksandbold;
+    src: url(/utilitários/Fontes/quicksand/Quicksand_Bold.otf);
+}
+
+@font-face {
+    font-family: quicksandbook;
+    src: url(/utilitários/Fontes/quicksand/Quicksand_Book.otf);
+}
+
+@font-face {
     font-family: sansation;
     src: url(/utilitários/Fontes/sansation/Sansation_Light.ttf);
 }
@@ -77,7 +87,7 @@ h1 {
     font-size: 80px;
     font-family: mssansserif;
     color: #FFFFFF;
-    padding: 10% 20% 10% 2%;
+    padding: 10% 10% 10% 2%;
 }
 
 .imgIntro {
@@ -88,7 +98,7 @@ h1 {
 /*----------------------------box1-3----------------------------*/
 
 #box1-3 {
-    font-family: quicksand;
+    font-family: quicksandbook;
     padding: 0 1vw 0em 1vw;
 }
 
@@ -96,9 +106,9 @@ h1 {
     display: flex;
     align-items: center;
     font-size: 2em;
-    font-family: 'Quicksand';
+    font-family: quicksand;
     color: white;
-    font-weight: bolder;
+    font-weight: bold;
 }
 
 .subtitleBox1-3 {
@@ -107,11 +117,10 @@ h1 {
     line-height: 56px;
     font-size: 1.8em;
     color: white;
-    font-weight: bold;
 }
 
 .containerTextBox1-3 {
-    padding-bottom: 2em;
+    padding-bottom: 1em;
 }
 
 .textBox1-3 {
@@ -120,7 +129,7 @@ h1 {
     font-size: 1.6em;
     color: white;
     font-weight: 500;
-    line-height: 56px;
+    line-height: 2em;
 }
 
 .containerImgBox1-3 {
@@ -155,7 +164,8 @@ h1 {
 
 #box2 {
     padding: 0 1vw 10em 1vw;
-    font-family: Quicksand;
+    font-family: quicksandbook;
+    color: white;
 }
 
 .box1-3_2 {
@@ -164,22 +174,24 @@ h1 {
 
 .titleBox2 {
     text-align: end;
-    font-size: 2em;
+    font-family: quicksand;
     color: white;
+    font-weight: bold;
+    font-size: 2em;
     font-weight: bolder;
     line-height: 56px;
 }
 
 .containerTextBox2 {
-    padding-bottom: 2em;
+    padding-bottom: 1em;
 }
 
 .textBox2 {
     text-align: end;
     font-size: 1.6em;
-    color: white;
+
     font-weight: 500;
-    line-height: 56px;
+    line-height: 2em;
 }
 
 .containerImgBox2 {
@@ -470,15 +482,16 @@ footer {
     .textIntro {
         font-size: 9vw;
     }
+
+    #box4 {
+        padding: 0 1%;
+    }
 }
 
 /*=================================================================================================================*/
 
 
 @media(max-width:600px) {
-
-
-
 
     .textIntro {
         font-size: 10vw;
@@ -522,10 +535,6 @@ footer {
         font-weight: 400;
     }
 
-    #box4 {
-        padding: 0 1%;
-    }
-
     .titleBox4 {
         font-size: 1.6em;
     }
@@ -538,5 +547,7 @@ footer {
         font-size: 2em;
     }
 
-    #containerCopyright {flex-direction: column;}
+    #containerCopyright {
+        flex-direction: column;
+    }
 }

@@ -2,6 +2,7 @@
     padding: 0;
     margin: 0;
     text-decoration: none;
+    font-family: mssansserif;
 }
 
 body {
@@ -15,6 +16,11 @@ body {
 }
 
 /*--------------------fonte--------------------*/
+
+@font-face {
+    font-family: mssansserif;
+    src: url(/utilitários/Fontes/mssansserif/microsoft-sans-serif.ttf);
+}
 
 /*----------------------------nav----------------------------*/
 
@@ -73,7 +79,9 @@ h2 {
         line-height: 15vw;
     }
 
-    #social {padding-top: 20vw;}
+    #social {
+        padding-top: 20vw;
+    }
 }
 
 /*=====================mediaQuery==================================*/
@@ -83,4 +91,18 @@ h2 {
         font-size: 7vw;
         line-height: 20vw;
     }
+
+    #social {
+        position: absolute;
+        bottom: 2em;
+        width: 25vw;
+    }
+
+    .social-img {
+        width: 8vw;
+    }
 }
+
+/*=====================mediaQuery==================================*/
+
+@media (max-width:400px) {.social-img{width: 10vw;}}
