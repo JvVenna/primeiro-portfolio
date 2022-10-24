@@ -614,7 +614,8 @@ footer {
     /*--------------------intro--------------------*/
 
     .textIntro {
-        padding: 30% 1%;
+        font-size: vw;
+        padding: 50% 1%;
     }
 
     .imgIntro {
@@ -624,17 +625,17 @@ footer {
     /*--------------------box1-2-3--------------------*/
 
     .titleBox1-3, .titleBox2 {
-        font-size: 5vw;
+        font-size: 6vw;
         padding-bottom: 4vw;
     }
 
     .subtitleBox1-3 {
-        font-size: 4.4vw;
+        font-size: 5vw;
     }
 
     .containerTextBox1-3, .containerTextBox2 {
-        font-size: 4.4vw;
-        line-height: 12vw;
+        font-size: 5vw;
+        line-height: 13vw;
     }
 
     .infoContainerImgBox1-3, .infoContainerImgBox2 {
@@ -681,8 +682,9 @@ footer {
     #containerCopyright {
         font-size: 5vw;
     }
-.imgSocial-img{
-width: 9vw;
-}
+
+    .imgSocial-img {
+        width: 9vw;
+    }
 }
 }
