@@ -25,7 +25,8 @@ body {
 /*----------------------------nav----------------------------*/
 
 h1 {
-    color: white;
+    font-family: arial;
+    color: rgba(211, 211, 211, 0.7);
     text-align: end;
     padding: 1em;
 }
@@ -47,12 +48,12 @@ h1 {
 
 h2 {
     color: rgb(255, 255, 255);
-
+white-space: wrap;
     text-align: center;
 }
 
 .option2 {
-    color: red;
+    color: rgba(255, 0, 0, 0.8);
 }
 
 /*----------------------------redesSociais----------------------------*/
@@ -105,4 +106,8 @@ h2 {
 
 /*=====================mediaQuery==================================*/
 
-@media (max-width:400px) {.social-img{width: 10vw;}}
+@media (max-width:400px) {
+    .social-img {
+        width: 10vw;
+    }
+}

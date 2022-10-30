@@ -29,7 +29,7 @@
 
 {
     const paragraphHTML = document.querySelector("#text2");
-    const textWriteSelf = "Home - CV";
+    const textWriteSelf = "Ver currículo digital";
     const interval = 100;
 
     function ShowText(paragraphHTML, textWriteSelf, interval) {
