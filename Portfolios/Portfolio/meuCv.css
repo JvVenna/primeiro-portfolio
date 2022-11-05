@@ -1,0 +1,753 @@
+* {
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    list-style: none;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 65%;
+}
+
+body {
+    background-color: black;
+}
+
+/*----------------------------fontes----------------------------*/
+
+/*--------------------josefin--------------------*/
+
+@font-face {
+    font-family: josefinsanslight;
+    src: url('/Assets/Utilitários/Fontes/josefinsans/JosefinSans-Light.ttf');
+}
+
+@font-face {
+    font-family: josefinsans;
+    src: url('/Assets/Utilitários/Fontes/josefinsans/JosefinSans-Regular.ttf');
+}
+
+@font-face {
+    font-family: josefinsanssemibold;
+    src: url('/Assets/Utilitários/Fontes/josefinsans/JosefinSans-SemiBold.ttf');
+}
+
+@font-face {
+    font-family: josefinsansbold;
+    src: url('/Assets/Utilitários/Fontes/josefinsans/JosefinSans-Bold.ttf');
+}
+
+/*--------------------montserifOnlyTwo--------------------*/
+
+@font-face {
+    font-family: montserif;
+    src: url('/Assets/Utilitários/Fontes/montserif/Fontfabric\ -\ Mont\ ExtraLight\ DEMO.otf');
+}
+
+@font-face {
+    font-family: montserifbold;
+    src: url('/Assets/Utilitários/Fontes/montserif/Fontfabric\ -\ Mont\ Heavy\ DEMO.otf');
+}
+
+/*--------------------montserrat--------------------*/
+
+@font-face {
+    font-family: montserrat;
+    src: url('/Assets/Utilitários/Fontes/montserrat/Montserrat-ExtraLight.otf');
+}
+
+@font-face {
+    font-family: montserratsemibold;
+    src: url('/Assets/Utilitários/Fontes/montserrat/Montserrat-Light.otf');
+}
+
+@font-face {
+    font-family: montserratbold;
+    src: url('/Assets/Utilitários/Fontes/montserrat/Montserrat-SemiBold.otf');
+}
+
+/*--------------------mssansserifOnlyDefault--------------------*/
+
+@font-face {
+    font-family: mssansserif;
+    src: url('/Assets/Utilitários/Fontes/mssansserif/microsoft-sans-serif.ttf');
+}
+
+/*--------------------quicksand--------------------*/
+
+@font-face {
+    font-family: quicksand;
+    src: url('/Assets/Utilitários/Fontes/quicksand/Quicksand_Light.otf');
+}
+
+@font-face {
+    font-family: quicksandbold;
+    src: url('/Assets/Utilitários/Fontes/quicksand/Quicksand_Bold.otf');
+}
+
+@font-face {
+    font-family: quicksandbook;
+    src: url('/Assets/Utilitários/Fontes/quicksand/Quicksand_Book.otf');
+}
+
+/*--------------------sansation--------------------*/
+
+@font-face {
+    font-family: sansation;
+    src: url('/Assets/Utilitários/Fontes/sansation/Sansation_Light.ttf');
+}
+
+@font-face {
+    font-family: sansationbold;
+    src: url('/Assets/Utilitários/Fontes/sansation/Sansation_Bold.ttf');
+}
+
+/*--------------------typewriter--------------------*/
+
+@font-face {
+    font-family: typeleorio;
+    src: url('/Assets/Utilitários/Fontes/typeleorio/Leorio.ttf');
+}
+
+/*--------------------typewriter--------------------*/
+
+@font-face {
+    font-family: typewriter;
+    src: url('/Assets/Utilitários/Fontes/courier.ttf');
+}
+
+/*--------------------worksans--------------------*/
+
+@font-face {
+    font-family: worksanslight;
+    src: url('/Assets/Utilitários/Fontes/worksans/WorkSans-Light.ttf');
+}
+
+@font-face {
+    font-family: worksans;
+    src: url('/Assets/Utilitários/Fontes/worksans/WorkSans-Regular.ttf');
+}
+
+@font-face {
+    font-family: worksanssemibold;
+    src: url('/Assets/Utilitários/Fontes/worksans/WorkSans-SemiBold.ttf');
+}
+
+@font-face {
+    font-family: worksansbold;
+    src: url('/Assets/Utilitários/Fontes/worksans/WorkSans-Bold.ttf');
+}
+
+/*=====================Menu==================================*/
+
+nav {
+    display: flex;
+    align-items: center;
+    background-color: rgba(0, 0, 0, 0.1);
+    width: 100vw;
+    position: fixed;
+    top: 0;
+}
+
+h1 {
+    display: flex;
+    font-size: 2em;
+    font-family: sansationbold;
+    color: white;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+    justify-content: center;
+    padding: 0.8em 0 0.5em 0;
+    width: 100%;
+    margin: 0em 10vw;
+}
+
+/*----------------------------intro----------------------------*/
+
+.textIntro {
+    display: flex;
+    align-items: center;
+    font-size: 80px;
+    font-family: mssansserif;
+    color: #FFFFFF;
+    line-height: 10vw;
+    font-weight: 590;
+    padding: 10% 10% 10% 2%;
+}
+
+.imgIntro {
+    width: 100%;
+    padding-bottom: 10vw;
+}
+
+/*----------------------------box1-3----------------------------*/
+
+#box1-3 {
+    font-family: montserrat;
+    color: white;
+    font-weight: bold;
+    padding: 0 1vw 10em 1vw;
+}
+
+.titleBox1-3 {
+    font-size: 2rem;
+    font-family: montserrat;
+    line-height: 2em;
+}
+
+.subtitleBox1-3 {
+    display: flex;
+    align-items: center;
+    line-height: 56px;
+    font-size: 1.4em;
+}
+
+.containerTextBox1-3 {
+    padding-bottom: 1em;
+    font-size: 1.5em;
+    line-height: 45px;
+    padding-bottom: 0em;
+}
+
+.containerImgBox1-3 {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    width: 100%;
+}
+
+.containerImgBox1-3-div {
+    display: flex;
+    justify-content: flex-end;
+    background: linear-gradient(90deg, #000000 0.02%, rgba(128, 128, 128, 0.5) 57.86%);
+    width: 100%;
+}
+
+.containerImgBox1-3-img {
+    width: 900px;
+}
+
+.infoContainerImgBox1-3 {
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: lighter;
+}
+
+/*----------------------------box2----------------------------*/
+
+#box2 {
+    font-family: montserrat;
+    color: white;
+    font-weight: bold;
+    padding: 0 1vw 10em 1vw;
+}
+
+.titleBox2 {
+    font-size: 2rem;
+    font-family: montserrat;
+    line-height: 2em;
+    text-align: end;
+}
+
+.containerTextBox2 {
+    text-align: end;
+    padding-bottom: 1em;
+    font-size: 1.5rem;
+    line-height: 45px;
+    padding-bottom: 0em;
+}
+
+.containerImgBox2 {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    width: 100%;
+}
+
+.containerImgBox2-div {
+    display: flex;
+    justify-content: flex-start;
+    background: linear-gradient(-90deg, #000000 0.02%, rgba(128, 128, 128, 0.5) 57.86%);
+    width: 100%;
+}
+
+.containerImgBox2-img {
+    width: 900px;
+}
+
+.infoContainerImgBox2 {
+    color: white;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: lighter;
+}
+
+/*----------------------------box4----------------------------*/
+
+#box4 {
+    font-family: sansation;
+    color: white;
+    padding: 0 1vw;
+}
+
+.titleBox4 {
+    text-align: center;
+    font-size: 2em;
+    font-family: quicksandteste;
+    font-weight: bold;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+    padding-bottom: 1em;
+}
+
+.listLeftBox4 {
+    font-size: 1.5em;
+    font-weight: bold;
+    line-height: 2em;
+    padding: 2em 0;
+}
+
+.listRightBox4 {
+    font-size: 1.5em;
+    font-weight: bold;
+    text-align: end;
+    line-height: 2em;
+    padding-bottom: 10vw;
+}
+
+/*--------------------download-CV--------------------*/
+
+.alignButton {
+    text-align: center;
+    width: 100%;
+    padding-bottom: 15vw;
+}
+
+#downloadCv {
+    font-size: 1em;
+    font-family: montserifbold;
+    text-align: center;
+    border-radius: 2em;
+    cursor: pointer;
+    padding: 1em 2em;
+}
+
+/*--------------------thankfull--------------------*/
+
+#thankfull {
+    text-align: center;
+    font-size: 3.5em;
+    font-family: mssansserif;
+    color: white;
+    padding: 0 0.5vw 15vw 0.5vw;
+}
+
+/*----------------------------footer----------------------------*/
+
+footer {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding-bottom: 2em;
+}
+
+#listSocial {
+    display: flex;
+    position: absolute;
+    justify-content: space-between;
+    left: 3em;
+    width: 10em;
+    padding-top: 0.5em;
+}
+
+.imgSocial-img {
+    width: 30px;
+}
+
+/*--------------------copyright--------------------*/
+
+#containerCopyright {
+    display: flex;
+    flex-direction: row;
+    font-size: 1.7em;
+    font-family: sansationbold;
+    color: white;
+    align-items: center;
+    font-weight: bold;
+}
+
+.logo_nomeFantasia {
+    display: flex;
+    justify-content: left;
+    align-items: center;
+}
+
+.logo-img {
+    height: 1.5em;
+    padding-right: 0.2em;
+}
+
+
+/*=====================mediaQuery-1000px==================================*/
+
+
+@media(max-width:1000px) {
+
+    /*----------------------------intro----------------------------*/
+
+    .textIntro {
+        font-size: 70px;
+        padding: 15% 5% 15% 1%;
+        line-height: 1.5em;
+    }
+
+    /*----------------------------box1-3----------------------------*/
+
+    #box1-3 {
+        padding: 0 0.5vw 10em 0.5vw;
+    }
+
+    .titleBox1-3 {
+        font-size: 1.8em;
+        line-height: 1.5em;
+    }
+
+    .subtitleBox1-3 {
+        font-size: 1.5em;
+        line-height: 1.5em;
+    }
+
+    .containerTextBox1-3 {
+        font-size: 1.35em;
+        line-height: 1.8em;
+    }
+
+    .containerImgBox1-3-img {
+        width: 100%;
+    }
+
+    .titleBox1-3, .titleBox2 {
+        line-height: 1.5em;
+    }
+
+    /*----------------------------box2----------------------------*/
+
+    #box2 {
+        padding: 0 0.5vw 10em 0.5vw;
+    }
+
+    .titleBox2 {
+        font-size: 1.8em;
+        line-height: 1.5em;
+    }
+
+    .containerTextBox2 {
+        font-size: 1.35em;
+        line-height: 1.8em;
+    }
+
+    .containerImgBox2-img {
+        width: 100%;
+    }
+
+    /*----------------------------box4----------------------------*/
+    .titleBox4 {
+        font-size: 1.7em;
+    }
+
+    .listLeftBox4, .listRightBox4 {
+        font-size: 1.35em;
+    }
+
+    .listLeftBox4 {
+        padding-bottom: 15vw;
+    }
+
+    /*--------------------download-CV--------------------*/
+
+    .alignButton {
+        padding-bottom: 20vw;
+    }
+
+    /*--------------------thankfull--------------------*/
+
+    #thankfull {
+        font-size: 3em;
+        padding-bottom: 20vw;
+    }
+
+    /*----------------------------footer----------------------------*/
+
+    footer {
+        display: flex;
+        flex-direction: column;
+    }
+
+    #listSocial {
+        position: sticky;
+        align-self: center;
+        padding-bottom: 1.5em;
+        width: 15em;
+    }
+
+    .imgSocial-img {
+        width: 2.5em;
+    }
+
+    /*--------------------copyright--------------------*/
+
+    #containerCopyright {
+        align-self: center;
+    }
+
+}
+
+
+/*=====================mediaQuery-800px==================================*/
+
+
+@media (max-width:800px) {
+
+    /*--------------------intro--------------------*/
+
+    .textIntro {
+        font-size: 7vw;
+        padding: 20% 0 25% 2vw;
+    }
+
+    .imgIntro {
+        padding-bottom: 20vw;
+    }
+
+    /*--------------------box1-2-3--------------------*/
+    .titleBox1-3, .titleBox2 {
+        line-height: 1em;
+    }
+
+    .subtitleBox1-3, .containerTextBox1-3, .containerTextBox2 {
+        padding-top: 0.5em;
+    }
+
+    /*--------------------box4--------------------*/
+
+    #box4 {
+        padding: 0 1%;
+    }
+
+    .listLeftBox4 {
+        padding-bottom: 10vw;
+    }
+
+    .listLeftBox4, .listRightBox4 {
+        font-size: 1.2em;
+    }
+
+    .listRightBox4 {
+        padding-bottom: 20vw;
+    }
+
+    /*--------------------buttonCv--------------------*/
+
+    .alignButton {
+        padding-bottom: 25vw;
+    }
+
+}
+
+
+/*=====================mediaQuery-600px==================================*/
+
+
+@media(max-width:600px) {
+
+    /*--------------------menu--------------------*/
+
+    nav {
+        background-color: rgba(0, 0, 0, 0.9);
+    }
+
+    h1 {
+        margin: 0;
+        border-bottom: 1px solid rgba(255, 255, 255, 0.4);
+    }
+
+    /*--------------------intro--------------------*/
+
+    .textIntro {
+        font-size: 9vw;
+        padding: 25% 1% 30% 1%;
+    }
+
+    .imgIntro {
+        padding-bottom: 10em;
+    }
+
+    /*--------------------box1-2-3--------------------*/
+
+    #box1-3, #box2 {
+        padding: 0;
+    }
+
+    .titleBox1-3, .titleBox2 {
+        display: flex;
+        justify-content: center;
+        text-align: center;
+        font-size: 1.6em;
+        font-family: montserrat;
+        line-height: 1.6em;
+        padding-bottom: 0.3em;
+    }
+
+    .subtitleBox1-3 {
+        font-family: montserrat;
+        font-size: 1.4em;
+    }
+
+    .containerTextBox1-3, .containerTextBox2 {
+        font-family: montserrat;
+        font-size: 1.3em;
+        line-height: 2em;
+        font-weight: bolder;
+    }
+
+    .titleBox1-3, .subtitleBox1-3, .containerTextBox1-3, .titleBox2, .containerTextBox2 {
+        padding-left: 1vw;
+        padding-right: 1vw;
+    }
+
+    /*--------------------box1-2--------------------*/
+
+    .sublineBox1-2 {
+        padding-bottom: 20vw;
+        margin: 0 10vw 20vw 10vw;
+        border-bottom: 0.1px solid rgba(255, 255, 255, 0.3);
+    }
+
+    /*--------------------box3--------------------*/
+
+    .infoPaddingBox3 {
+        padding-bottom: 15vw;
+    }
+
+    /*--------------------box4--------------------*/
+
+    .titleBox4 {
+        font-size: 1.6em;
+        ff;
+    }
+
+    .listRightBox4, .listLeftBox4 {
+        font-size: 1.3em;
+        line-height: 2.5em;
+    }
+
+    /*--------------------thankfull--------------------*/
+
+    #thankfull {
+        font-size: 2.5em;
+    }
+
+    /*--------------------footer--------------------*/
+
+    #containerCopyright {
+        flex-direction: column;
+        font-size: 1.5em;
+    }
+
+    #listSocial {
+        width: 35vw;
+    }
+
+    .imgSocial-img {
+        width: 2.2em;
+    }
+
+}
+
+
+/*=====================mediaQuery-500px==================================*/
+
+
+@media(max-width:500px) {
+
+
+    /*--------------------footer--------------------*/
+
+    h1 {
+        font-size: 6vw;
+    }
+
+    /*--------------------intro--------------------*/
+
+    .textIntro {
+        font-size: vw;
+        padding: 50% 1%;
+    }
+
+    .imgIntro {
+        padding-bottom: 20vw;
+    }
+
+    /*--------------------box1-2-3--------------------*/
+
+    .titleBox1-3, .titleBox2 {
+        font-size: 6vw;
+        padding-bottom: 4vw;
+    }
+
+    .subtitleBox1-3 {
+        font-size: 5vw;
+    }
+
+    .containerTextBox1-3, .containerTextBox2 {
+        font-size: 5vw;
+        line-height: 13vw;
+    }
+
+    .infoContainerImgBox1-3, .infoContainerImgBox2 {
+        font-size: 4vw
+    }
+
+    /*--------------------box4--------------------*/
+
+    #box4 {}
+
+    .titleBox4 {
+        font-size: 6vw;
+    }
+
+    .listLeftBox4, .listRightBox4 {
+        font-size: 4.5vw;
+        line-height: 12vw;
+    }
+
+    .listRightBox4 {
+        padding-bottom: 30vw;
+    }
+
+    /*--------------------download-CV--------------------*/
+
+    .alignButton {
+        padding-bottom: 40vw;
+    }
+
+    #downloadCv {
+        font-size: 4vw;
+    }
+
+
+    /*--------------------thankfull--------------------*/
+
+    #thankfull {
+        font-size: 8vw;
+        padding-bottom: 35vw;
+    }
+
+    /*--------------------footer--------------------*/
+
+    #containerCopyright {
+        font-size: 5vw;
+    }
+
+    .imgSocial-img {
+        width: 9vw;
+    }
+}
+}
