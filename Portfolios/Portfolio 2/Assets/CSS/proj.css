@@ -134,115 +134,93 @@ html {
     src: url('/Assets/Utilitários/Fontes/worksans/WorkSans-Bold.ttf');
 }
 
-/*=====================inicio==================================*/
 
-#inicio {
+/*=====================APRESENTAÇÃO==================================*/
+
+#projetos {
     display: flex;
-    flex-direction: row;
-    height: 100vh;
-    background-image: url('/Assets/utilitários/IMG/inicioStars.png');
-background-size: contain;
-padding-top: 10%;
+    flex-direction: column;
+    padding: 15rem 0;
+    background-color: rgb(10, 10, 10);
 }
 
-/*--------------------Left--------------------*/
-
-.leftInicio {
-    color: white;
-    padding-left: 1rem;
-    width: 60%;
-    z-index: 1;
-}
-
-.contentWelcome {
+.titleProjetos {
+    text-align: center;
     font-size: 4rem;
-    padding:5em 0 4em 0;
+    font-family: worksans;
+    padding-bottom: 15rem;
+}
+
+.menuProjetos {
+    display: flex;
+    justify-content: space-between;
+}
+
+.eachProjetos {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    background-color: rgb(0, 0, 0);
+    width: 40rem;
+    height: 35em;
+    margin: auto 2rem;
+    padding: 2rem;
+}
+
+.titleProj {
+    font-size: 2rem;
+    font-family: montserratbold;
+    color: rgba(255, 255, 255, 0.438);
+}
+
+.textProj {
+    font-size: 1.8rem;
+    color: rgba(167, 19, 19, 0.829);
     font-family: mssansserif;
-    line-height: 6rem;
-}
-
-span {
-    color: royalblue;
-}
-
-.citationInicio {
-    font-size: 2rem;
-    font-family: typewriter, monospace;
     line-height: 3rem;
-    padding-bottom: 3em;
-    color: rgba(255, 255, 255, 0.7);
 }
 
-.authorCitationIn {
+.entrarProj {
+    color: rgba(65, 105, 225);
     font-size: 2rem;
-    font-family: typeleorio;
-    color: rgba(255, 255, 255, 0.8);
+    font-family: josefinsanssemibold;
 }
 
-/*--------------------Right-Inicio--------------------*/
-
-.rightInicio {}
-
-#inicioBack {
-    background-image: url('/Assets/Utilitários/IMG/inicioPlaneta.png');
-    background-size: cover;
-    background-position: left top;
-    height: 120vh;
-    width: 55vw;
-    position: absolute;
-    right: 0;
-    top: 0;
-    z-index: 0;
-
+.legendProjetos {
+    text-align: end;
+    padding-top: 7rem;
+    font-size: 1.7rem;
+    font-family: arial;
+    color: rgba(211, 211, 211, 0.6);
 }
 
-.clickHere {
-    text-decoration: underline;
-    cursor: pointer;
-    font-size: 2.2rem;
-    font-family: josefinsans;
-    color: rgb(255, 255, 255, 0.7);
-    letter-spacing: 1px;
+.entrarProj:hover {
+    border-bottom: 1px solid rgba(255, 255, 255, 0.1);
 }
 
-/*=====================media-query==================================*/
+/*=====================Media-Querys==================================*/
 
+/*--------------------1024px--------------------*/
 
 @media (max-width: 1024px) {
     html {
         font-size: 60%;
     }
-
-    .leftInicio {
-        width: 70%;
-    }
 }
 
-/*--------------------950px--------------------*/
+/*--------------------900px--------------------*/
 
-@media (max-width: 950px) {
-    html {
-        font-size: 55%;
-    }
-}
+@media (max-width: 900px) {
 
-/*--------------------768px--------------------*/
-
-@media (max-width: 768px) {
-    html {
-        font-size: 55%;
+    .menuProjetos {
+        flex-direction: column;
+        align-items: center;
+        margin: 0;
     }
 
-    .leftInicio {
-        width: 80%;
-    }
-}
-
-/*--------------------650px--------------------*/
-
-@media (max-width: 650px) {
-    .leftInicio {
-        width: 90%;
+    .eachProjetos {
+        width: 70vw;
+        margin-bottom: 5rem;
     }
 }
 
@@ -250,27 +228,18 @@ span {
 
 @media (max-width: 500px) {
     html {
-        font-size: 53%;
+        font-size: 58%;
     }
 
-    #inicioBack {
-        display: none;
-    }
-
-    .leftInicio {
+    .eachProjetos {
         width: 100%;
-    }
-
-    .textViewCv {
-        right: 0.5em;
-        display: none;
     }
 }
 
-/*--------------------340px--------------------*/
+/*--------------------375px--------------------*/
 
-@media (max-width: 340px) {
-    .contentWelcome {
-        padding: 4em 0;
+@media (max-width: 375px) {
+    html {
+        font-size: 55%;
     }
 }

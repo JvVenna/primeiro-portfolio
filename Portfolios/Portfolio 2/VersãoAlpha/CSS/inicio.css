@@ -1,0 +1,297 @@
+* {
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    list-style: none;
+    font-family: mssansserif;
+}
+
+html {
+    font-size: 65%;
+}
+
+body {
+    background-color: black;
+}
+
+/*----------------------------fontes----------------------------*/
+
+/*--------------------josefin--------------------*/
+
+@font-face {
+    font-family: josefinsanslight;
+    src: url('/VersãoAlpha/Utilitários/Fontes/josefinsans/JosefinSans-Light.ttf');
+}
+
+@font-face {
+    font-family: josefinsans;
+    src: url('/VersãoAlpha/Utilitários/Fontes/josefinsans/JosefinSans-Regular.ttf');
+}
+
+@font-face {
+    font-family: josefinsanssemibold;
+    src: url('/VersãoAlpha/Utilitários/Fontes/josefinsans/JosefinSans-SemiBold.ttf');
+}
+
+@font-face {
+    font-family: josefinsansbold;
+    src: url('/VersãoAlpha/Utilitários/Fontes/josefinsans/JosefinSans-Bold.ttf');
+}
+
+/*--------------------montserifOnlyTwo--------------------*/
+
+@font-face {
+    font-family: montserif;
+    src: url('/VersãoAlpha/Utilitários/Fontes/montserif/Fontfabric\ -\ Mont\ ExtraLight\ DEMO.otf');
+}
+
+@font-face {
+    font-family: montserifbold;
+    src: url('/VersãoAlpha/Utilitários/Fontes/montserif/Fontfabric\ -\ Mont\ Heavy\ DEMO.otf');
+}
+
+/*--------------------montserrat--------------------*/
+
+@font-face {
+    font-family: montserrat;
+    src: url(/VersãoAlpha/Utilitários/Fontes/montserrat/Montserrat-ExtraLight.otf);
+}
+
+@font-face {
+    font-family: montserratsemibold;
+    src: url(/VersãoAlpha/Utilitários/Fontes/montserrat/Montserrat-Light.otf);
+}
+
+@font-face {
+    font-family: montserratbold;
+    src: url(/VersãoAlpha/Utilitários/Fontes/montserrat/Montserrat-SemiBold.otf);
+}
+
+/*--------------------mssansserifOnlyDefault--------------------*/
+
+@font-face {
+    font-family: mssansserif;
+    src: url('/VersãoAlpha/Utilitários/Fontes/mssansserif/microsoft-sans-serif.ttf');
+}
+
+/*--------------------quicksand--------------------*/
+
+@font-face {
+    font-family: quicksand;
+    src: url(/VersãoAlpha/Utilitários/Fontes/quicksand/Quicksand_Light.otf);
+}
+
+@font-face {
+    font-family: quicksandbold;
+    src: url(/VersãoAlpha/Utilitários/Fontes/quicksand/Quicksand_Bold.otf);
+}
+
+@font-face {
+    font-family: quicksandbook;
+    src: url(/VersãoAlpha/Utilitários/Fontes/quicksand/Quicksand_Book.otf);
+}
+
+/*--------------------sansation--------------------*/
+
+@font-face {
+    font-family: sansation;
+    src: url(/VersãoAlpha/Utilitários/Fontes/sansation/Sansation_Light.ttf);
+}
+
+@font-face {
+    font-family: sansationbold;
+    src: url(/VersãoAlpha/Utilitários/Fontes/sansation/Sansation_Bold.ttf);
+}
+
+/*--------------------typewriter--------------------*/
+
+@font-face {
+    font-family: typeleorio;
+    src: url('/VersãoAlpha/Utilitários/Fontes/typeleorio/Leorio.ttf');
+}
+
+/*--------------------typewriter--------------------*/
+
+@font-face {
+    font-family: typewriter;
+    src: url('/VersãoAlpha/Utilitários/Fontes/courier.ttf');
+}
+
+/*--------------------worksans--------------------*/
+
+@font-face {
+    font-family: worksanslight;
+    src: url('/VersãoAlpha/Utilitários/Fontes/worksans/WorkSans-Light.ttf');
+}
+
+@font-face {
+    font-family: worksans;
+    src: url('/VersãoAlpha/Utilitários/Fontes/worksans/WorkSans-Regular.ttf');
+}
+
+@font-face {
+    font-family: worksanssemibold;
+    src: url('/VersãoAlpha/Utilitários/Fontes/worksans/WorkSans-SemiBold.ttf');
+}
+
+@font-face {
+    font-family: worksansbold;
+    src: url('/VersãoAlpha/Utilitários/Fontes/worksans/WorkSans-Bold.ttf');
+}
+
+/*=====================inicio==================================*/
+
+#inicio {
+    display: flex;
+    flex-direction: row;
+    height: 100vh;
+    background-image: url('/Utilitários/IMG/inicioStars.png');
+    background-size: contain;
+}
+
+/*--------------------Left--------------------*/
+
+.leftInicio {
+    color: white;
+    padding-left: 1rem;
+    position: absolute;
+    width: 55%;
+    padding-top: 4rem;
+}
+
+.contentWelcome {
+    font-size: 3.5rem;
+    padding: 20vh 0 18vh 0;
+    font-family: mssansserif;
+    line-height: 6rem;
+}
+
+.citationInicio {
+    font-size: 1.7rem;
+    font-family: typewriter;
+    line-height: 3rem;
+    padding-bottom: 5rem;
+    color: rgba(255, 255, 255, 0.9);
+}
+
+.authorCitationIn {
+    font-size: 1.7rem;
+    font-family: typeleorio;
+    color: rgba(255, 255, 255, 1);
+}
+
+/*--------------------Right-Inicio--------------------*/
+
+.rightInicio {}
+
+#inicioBack {
+    background-image: url('/Utilitários/IMG/InicioPlaneta.png');
+    background-size: cover;
+    background-position: left top;
+    height: 96vh;
+    width: 55vw;
+    position: absolute;
+    right: 0;
+    top: 0;
+    margin-top: 4rem;
+}
+
+.textViewCv {
+    display: flex;
+    position: absolute;
+    flex-direction: column;
+    text-align: left;
+    align-items: flex-end;
+    right: 3rem;
+    bottom: 2rem;
+    font-size: 1.5rem;
+    font-family: montserratsemibold;
+    color: rgba(255, 255, 255, 0.5);
+}
+
+.textViewCv2 {
+    display: none;
+    flex-direction: column;
+    align-items: flex-end;
+    text-align: left;
+    font-size: 1.5rem;
+    font-family: montserratsemibold;
+    color: rgba(255, 255, 255, 0.5);
+    margin-top: 80vh;
+    position: absolute;
+    right: 1rem;
+}
+
+.clickHere {
+    text-decoration: underline;
+    cursor: pointer;
+    font-family: josefinsans;
+    color: rgb(255, 255, 255, 0.7);
+    letter-spacing: 1px;
+}
+
+@media (max-width: 1024px) {
+    html {
+        font-size: 60%;
+    }
+}
+
+@media (max-width: 950px) {
+    html {
+        font-size: 55%;
+    }
+}
+
+@media (max-width: 768px) {
+    html {
+        font-size: 55%;
+    }
+
+    .contentWelcome {
+        width: 70vw;
+    }
+
+}
+
+@media (max-width: 650px) {
+    .contentWelcome {
+        width: 70vw;
+    }
+
+    .textViewCv {
+        bottom: -10rem;
+    }
+}
+
+@media (max-width: 500px) {
+    html {
+        font-size: 53%;
+    }
+
+    #inicioBack {
+        display: none;
+    }
+
+    .leftInicio, .contentWelcome {
+        width: 95vw;
+    }
+
+    .contentWelcome {
+        padding: 15vh 0 10vh 0;
+    }
+
+    .citationInicio {
+        font-size: 2.2rem;
+        color: rgb(165, 165, 165);
+    }
+
+    .authorCitationIn {
+        font-size: 2rem;
+        color: lightgray;
+    }
+
+    .textViewCv {
+        font-size: 2rem;
+        right: 0.5rem;
+    }
+}

@@ -18,12 +18,12 @@ const allImages = {
     imgShape: document.querySelector('.containerImgExp-img'),
     imgShape2: document.querySelector('.containerImgExp-img2'),
     imgShape3: document.querySelector('.containerImgExp-img3'),
-    imgHardware: '/Versão Alpha/Utilitários/IMG/expHardware.jpg',
-    imgRedes: '/Versão Alpha/Utilitários/IMG/expRedes.jpg',
-    imgDev: '/Versão Alpha/Utilitários/IMG/expDev.jpg',
-    imgCertSenai: '/Versão Alpha//Utilitários/IMG/expCertSenai.jpeg',
-    imgCertPeople: '/Versão Alpha//Utilitários/IMG/expCertPeople.jpeg',
-    imgCertCiee: '/Versão Alpha/Utilitários/IMG/expCertCiee.jpg'
+    imgHardware: '/Assets/Utilitários/IMG/expHardware.jpg',
+    imgRedes: '/Assets/Utilitários/IMG/expRedes.jpg',
+    imgDev: '/Assets/Utilitários/IMG/expDev.jpg',
+    imgCertSenai: '/Assets//Utilitários/IMG/expCertSenai.jpeg',
+    imgCertPeople: '/Assets//Utilitários/IMG/expCertPeople.jpeg',
+    imgCertCiee: '/Assets/Utilitários/IMG/expCertCiee.jpg'
 };
 
 buttons.btnHardware.addEventListener("click", containerHardware);

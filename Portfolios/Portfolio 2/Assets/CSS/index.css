@@ -9,6 +9,10 @@ html {
     font-size: 65%;
 }
 
+body{
+    background-color: black;
+}
+
 /*----------------------------fontes----------------------------*/
 
 /*--------------------josefin--------------------*/
@@ -134,143 +138,44 @@ html {
     src: url('/Assets/Utilitários/Fontes/worksans/WorkSans-Bold.ttf');
 }
 
-/*=====================inicio==================================*/
+/*=====================MENU==================================*/
 
-#inicio {
+header {
     display: flex;
-    flex-direction: row;
-    height: 100vh;
-    background-image: url('/Assets/utilitários/IMG/inicioStars.png');
-background-size: contain;
-padding-top: 10%;
+    justify-content: space-between;
+    background-color: rgba(0, 0, 0, 0.9);
+    position: fixed;
+    width: 100vw;
+    z-index: 5;
+    padding: 1% 0;
 }
 
-/*--------------------Left--------------------*/
-
-.leftInicio {
-    color: white;
-    padding-left: 1rem;
-    width: 60%;
-    z-index: 1;
+.logo {
+    display: flex;
+    align-items: flex-end;
+    padding-left: 10%;
 }
 
-.contentWelcome {
+.logo-img {
+    width: 2vw;
+}
+
+.textLogo {
     font-size: 4rem;
-    padding:5em 0 4em 0;
-    font-family: mssansserif;
-    line-height: 6rem;
+    font-family: sansation;
 }
 
-span {
-    color: royalblue;
-}
-
-.citationInicio {
+.menu {
+    display: flex;
+    align-items: flex-end;
+    width: 35%;
+    justify-content: space-between;
+    font-family: worksans;
     font-size: 2rem;
-    font-family: typewriter, monospace;
-    line-height: 3rem;
-    padding-bottom: 3em;
-    color: rgba(255, 255, 255, 0.7);
-}
-
-.authorCitationIn {
-    font-size: 2rem;
-    font-family: typeleorio;
-    color: rgba(255, 255, 255, 0.8);
-}
-
-/*--------------------Right-Inicio--------------------*/
-
-.rightInicio {}
-
-#inicioBack {
-    background-image: url('/Assets/Utilitários/IMG/inicioPlaneta.png');
-    background-size: cover;
-    background-position: left top;
-    height: 120vh;
-    width: 55vw;
-    position: absolute;
-    right: 0;
-    top: 0;
-    z-index: 0;
+    padding-right: 10%;
 
 }
 
-.clickHere {
-    text-decoration: underline;
-    cursor: pointer;
-    font-size: 2.2rem;
-    font-family: josefinsans;
-    color: rgb(255, 255, 255, 0.7);
-    letter-spacing: 1px;
-}
-
-/*=====================media-query==================================*/
-
-
-@media (max-width: 1024px) {
-    html {
-        font-size: 60%;
-    }
-
-    .leftInicio {
-        width: 70%;
-    }
-}
-
-/*--------------------950px--------------------*/
-
-@media (max-width: 950px) {
-    html {
-        font-size: 55%;
-    }
-}
-
-/*--------------------768px--------------------*/
-
-@media (max-width: 768px) {
-    html {
-        font-size: 55%;
-    }
-
-    .leftInicio {
-        width: 80%;
-    }
-}
-
-/*--------------------650px--------------------*/
-
-@media (max-width: 650px) {
-    .leftInicio {
-        width: 90%;
-    }
-}
-
-/*--------------------500px--------------------*/
-
-@media (max-width: 500px) {
-    html {
-        font-size: 53%;
-    }
-
-    #inicioBack {
-        display: none;
-    }
-
-    .leftInicio {
-        width: 100%;
-    }
-
-    .textViewCv {
-        right: 0.5em;
-        display: none;
-    }
-}
-
-/*--------------------340px--------------------*/
-
-@media (max-width: 340px) {
-    .contentWelcome {
-        padding: 4em 0;
-    }
+.btnMenu {
+    color: lightgray;
 }
