@@ -18,12 +18,9 @@ const allImages = {
     imgShape: document.querySelector('.containerImgExp-img'),
     imgShape2: document.querySelector('.containerImgExp-img2'),
     imgShape3: document.querySelector('.containerImgExp-img3'),
-    imgHardware: '/Assets/Utilitários/IMG/expHardware.jpg',
-    imgRedes: '/Assets/Utilitários/IMG/expRedes.jpg',
-    imgDev: '/Assets/Utilitários/IMG/expDev.jpg',
-    imgCertSenai: '/Assets//Utilitários/IMG/expCertSenai.jpeg',
-    imgCertPeople: '/Assets//Utilitários/IMG/expCertPeople.jpeg',
-    imgCertCiee: '/Assets/Utilitários/IMG/expCertCiee.jpg'
+    imgHardware: '/Assets/Utilitarios/IMG/expHardware.jpg',
+    imgRedes: '/Assets/Utilitarios/IMG/expRedes.jpg',
+    imgDev: '/Assets/Utilitarios/IMG/expDev.jpg',
 };
 
 buttons.btnHardware.addEventListener("click", containerHardware);
