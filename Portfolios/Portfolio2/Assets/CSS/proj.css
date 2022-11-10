@@ -154,7 +154,15 @@ html {
 
 .menuProjetos {
     display: flex;
-    justify-content: space-evenly;
+    justify-content: space-around;
+    margin-bottom: 5rem;
+
+}
+
+.menuProjetos2 {
+display: flex;
+justify-content: space-evenly;
+    width: 100%;
 }
 
 .eachProjetos {
