@@ -413,7 +413,7 @@ footer {
     .menu {
         display: none;
     }
-
+.logo{padding: 0;}
     .leftInicio {
         width: 80%;
     }
