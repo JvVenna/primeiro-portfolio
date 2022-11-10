@@ -157,12 +157,14 @@ header {
 }
 
 .logo-img {
-    width: 50px;
+    width: 4rem;
+    height: fit-content;
 }
 
 .textLogo {
     font-size: 4rem;
     font-family: sansation;
+    margin-left: -4px;
 }
 
 .menu {
@@ -187,7 +189,7 @@ header {
     background-image: url("inicioStars.png");
     background-size: contain;
     height: 115vh;
-padding-top: 5vh;
+    padding-top: 5vh;
 }
 
 /*--------------------Left--------------------*/
@@ -283,7 +285,7 @@ span {
 
 .text {
     font-size: 2.2rem;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: mssansserif;
     color: lightgray;
     line-height: 4rem;
 }
@@ -402,6 +404,10 @@ footer {
 @media (max-width: 768px) {
     html {
         font-size: 55%;
+    }
+
+    header {
+        justify-content: center;
     }
 
     .menu {
