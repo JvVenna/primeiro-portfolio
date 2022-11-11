@@ -153,18 +153,19 @@ header {
 
 .logo {
     display: flex;
+align-items: center;
     padding-left: 10%;
 }
 
 .logo-img {
-    width: 4rem;
+    width: 3rem;
     height: fit-content;
 }
 
 .textLogo {
     font-size: 4rem;
     font-family: sansation;
-    margin-left: -4px;
+    margin-left: 1px;
 }
 
 .menu {
