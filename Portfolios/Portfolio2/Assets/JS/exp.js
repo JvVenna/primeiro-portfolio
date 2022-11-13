@@ -34,7 +34,7 @@ function containerHardware() {
 
     allTexts.title.innerHTML = 'Técnico em informática - TI 1.21 • Senac 2021';
     allTexts.subtitle.innerHTML = 'Hardware de computadores';
-    allTexts.text.innerHTML = 'Hardware no Senac me deu a base   conhecimento que eu tenho hoje: <br> montagem Pc’s / notebooks - troca de peças; <br> uso de multímetro; <br> manutenção preventiva / corretiva - ensino prático; <br> formatação de computadores; <br> criação de modelo de OS; <br></br> Projeto final : Simular criação de empresa de manutenção, atender cliente profissionalmente, com Ordem de Serviço, orçamento, fluxograma de funcionamento e outros.';
+    allTexts.text.innerHTML = 'Hardware no Senac me deu a base   conhecimento que eu tenho hoje: <br> montagem Pc’s / notebooks - troca de peças; <br> uso de multímetro; <br> manutenção preventiva / corretiva - ensino prático; <br> formatação de computadores; <br> criação de modelo de OS; <br></br> Projeto final: Simular criação de empresa de manutenção, atender cliente profissionalmente, com Ordem de Serviço, orçamento, fluxograma de funcionamento e outros.';
     allImages.imgShape.style.display = "flex";
     allImages.imgShape.src = allImages.imgHardware;
     allTexts.caption.style.display = 'flex';

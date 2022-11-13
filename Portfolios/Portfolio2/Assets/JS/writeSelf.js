@@ -1,4 +1,4 @@
-const paragraphHTML = document.querySelector(".citationInicio");
+const paragraphHTML = document.querySelector(".citation");
 const textWriteSelf = '"Uma máquina consegue fazer o trabalho de 50 homens ordinários. Nenhuma máquina consegue fazer o trabalho de um homem extraordinário."'; //Texto que se autoescreverá
 const interval = 50;
 

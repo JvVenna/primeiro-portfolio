@@ -12,6 +12,7 @@ html {
 body {
     background-color: black;
     color: white;
+    overflow-x: hidden;
 }
 
 /*----------------------------fontes----------------------------*/
@@ -20,140 +21,140 @@ body {
 
 @font-face {
     font-family: josefinsanslight;
-    src: url('/Assets/Utilitarios/Fontes/josefinsans/JosefinSans-Light.ttf');
+    src: url('/Portfolios/Portfolio2/Assets/Utilitarios/Fontes/josefinsans/JosefinSans-Light.ttf');
 }
 
 @font-face {
     font-family: josefinsans;
-    src: url('/Assets/Utilitarios/Fontes/josefinsans/JosefinSans-Regular.ttf');
+    src: url('/Portfolios/Portfolio2/Assets/Utilitarios/Fontes/josefinsans/JosefinSans-Regular.ttf');
 }
 
 @font-face {
     font-family: josefinsanssemibold;
-    src: url('/Assets/Utilitarios/Fontes/josefinsans/JosefinSans-SemiBold.ttf');
+    src: url('/Portfolios/Portfolio2/Assets/Utilitarios/Fontes/josefinsans/JosefinSans-SemiBold.ttf');
 }
 
 @font-face {
     font-family: josefinsansbold;
-    src: url('/Assets/Utilitarios/Fontes/josefinsans/JosefinSans-Bold.ttf');
+    src: url('/Portfolios/Portfolio2/Assets/Utilitarios/Fontes/josefinsans/JosefinSans-Bold.ttf');
 }
 
 /*--------------------montserifOnlyTwo--------------------*/
 
 @font-face {
     font-family: montserif;
-    src: url('/Assets/Utilitarios/Fontes/montserif/Fontfabric\ -\ Mont\ ExtraLight\ DEMO.otf');
+    src: url('/Portfolios/Portfolio2/Assets/Utilitarios/Fontes/montserif/Mont.otf');
 }
 
 @font-face {
     font-family: montserifbold;
-    src: url('/Assets/Utilitarios/Fontes/montserif/Fontfabric\ -\ Mont\ Heavy\ DEMO.otf');
+    src: url('/Portfolios/Portfolio2/Assets/Utilitarios/Fontes/montserif/MontHeavy.otf');
 }
 
 /*--------------------montserrat--------------------*/
 
 @font-face {
     font-family: montserrat;
-    src: url('/Assets/Utilitarios/Fontes/montserrat/Montserrat-ExtraLight.otf');
+    src: url('/Portfolios/Portfolio2/Assets/Utilitarios/Fontes/montserrat/Montserrat-ExtraLight.otf');
 }
 
 @font-face {
     font-family: montserratsemibold;
-    src: url('/Assets/Utilitarios/Fontes/montserrat/Montserrat-Light.otf');
+    src: url('/Portfolios/Portfolio2/Assets/Utilitarios/Fontes/montserrat/Montserrat-Light.otf');
 }
 
 @font-face {
     font-family: montserratbold;
-    src: url('/Assets/Utilitarios/Fontes/montserrat/Montserrat-SemiBold.otf');
+    src: url('/Portfolios/Portfolio2/Assets/Utilitarios/Fontes/montserrat/Montserrat-SemiBold.otf');
 }
 
 /*--------------------mssansserifOnlyDefault--------------------*/
 
 @font-face {
     font-family: mssansserif;
-    src: url('/Assets/Utilitarios/Fontes/mssansserif/microsoft-sans-serif.ttf');
+    src: url('/Portfolios/Portfolio2/Assets/Utilitarios/Fontes/mssansserif/microsoft-sans-serif.ttf');
 }
 
 /*--------------------quicksand--------------------*/
 
 @font-face {
     font-family: quicksand;
-    src: url('/Assets/Utilitarios/Fontes/quicksand/Quicksand_Light.otf');
+    src: url('/Portfolios/Portfolio2/Assets/Utilitarios/Fontes/quicksand/Quicksand_Light.otf');
 }
 
 @font-face {
     font-family: quicksandbold;
-    src: url('/Assets/Utilitarios/Fontes/quicksand/Quicksand_Bold.otf');
+    src: url('/Portfolios/Portfolio2/Assets/Utilitarios/Fontes/quicksand/Quicksand_Bold.otf');
 }
 
 @font-face {
     font-family: quicksandbook;
-    src: url('/Assets/Utilitarios/Fontes/quicksand/Quicksand_Book.otf');
+    src: url('/Portfolios/Portfolio2/Assets/Utilitarios/Fontes/quicksand/Quicksand_Book.otf');
 }
 
 /*--------------------sansation--------------------*/
 
 @font-face {
     font-family: sansation;
-    src: url('/Assets/Utilitarios/Fontes/sansation/Sansation_Light.ttf');
+    src: url('/Portfolios/Portfolio2/Assets/Utilitarios/Fontes/sansation/Sansation_Light.ttf');
 }
 
 @font-face {
     font-family: sansationbold;
-    src: url('/Assets/Utilitarios/Fontes/sansation/Sansation_Bold.ttf');
+    src: url('/Portfolios/Portfolio2/Assets/Utilitarios/Fontes/sansation/Sansation_Bold.ttf');
 }
 
-/*--------------------typewriter--------------------*/
+/*--------------------typeolorio--------------------*/
 
 @font-face {
     font-family: typeleorio;
-    src: url('/Assets/Utilitarios/Fontes/typeleorio/Leorio.ttf');
+    src: url('/Portfolios/Portfolio2/Assets/Utilitarios/Fontes/typeleorio/Leorio.ttf');
 }
 
 /*--------------------typewriter--------------------*/
 
 @font-face {
     font-family: typewriter;
-    src: url('/Assets/Utilitarios/Fontes/courier.ttf');
+    src: url('/Portfolios/Portfolio2/Assets/Utilitarios/Fontes/courier.ttf');
 }
 
 /*--------------------worksans--------------------*/
 
 @font-face {
     font-family: worksanslight;
-    src: url('/Assets/Utilitarios/Fontes/worksans/WorkSans-Light.ttf');
+    src: url('/Portfolios/Portfolio2/Assets/Utilitarios/Fontes/worksans/WorkSans-Light.ttf');
 }
 
 @font-face {
     font-family: worksans;
-    src: url('/Assets/Utilitarios/Fontes/worksans/WorkSans-Regular.ttf');
+    src: url('/Portfolios/Portfolio2/Assets/Utilitarios/Fontes/worksans/WorkSans-Regular.ttf');
 }
 
 @font-face {
     font-family: worksanssemibold;
-    src: url('/Assets/Utilitarios/Fontes/worksans/WorkSans-SemiBold.ttf');
+    src: url('/Portfolios/Portfolio2/Assets/Utilitarios/Fontes/worksans/WorkSans-SemiBold.ttf');
 }
 
 @font-face {
     font-family: worksansbold;
-    src: url('/Assets/Utilitarios/Fontes/worksans/WorkSans-Bold.ttf');
+    src: url('/Portfolios/Portfolio2/Assets/Utilitarios/Fontes/worksans/WorkSans-Bold.ttf');
 }
 
-/*=====================MENU==================================*/
+/*=====================MENU-FIXADO==================================*/
 
 header {
     display: flex;
     justify-content: space-between;
     background-color: rgba(0, 0, 0, 0.9);
+    z-index: 2;
     position: fixed;
     width: 100vw;
-    z-index: 5;
-    padding: 2% 0;
+    padding: 2%;
 }
 
 .logo {
     display: flex;
-align-items: center;
+    align-items: center;
     padding-left: 10%;
 }
 
@@ -163,106 +164,87 @@ align-items: center;
 }
 
 .textLogo {
+    display: flex;
     font-size: 4rem;
     font-family: sansation;
-    margin-left: 1px;
+    color: white;
 }
 
 .menu {
     display: flex;
     align-items: center;
-    width: 40%;
     justify-content: space-between;
+    font-size: 2rem;
     font-family: worksans;
-    font-size: 2.1rem;
+    width: 45vw;
     padding-right: 10%;
 }
 
-.btnMenu {
+.optMenu {
     color: lightgray;
 }
 
-/*=====================inicio==================================*/
+/*===========================INICIO===========================*/
 
 #inicio {
     display: flex;
     flex-direction: row;
     background-image: url("inicioStars.png");
     background-size: contain;
-    height: 115vh;
-    padding-top: 5vh;
+    height: 120vh;
 }
 
-/*--------------------Left--------------------*/
-
 .leftInicio {
-    color: white;
-    padding-left: 1rem;
-    width: 60%;
     z-index: 1;
+    width: 60%;
+    padding-left: 1vh;
 }
 
 .contentWelcome {
     font-size: 4rem;
-    padding: 4em 0 4em 0;
     font-family: mssansserif;
     line-height: 6rem;
+    padding: 30vh 0 15vh 0;
 }
 
 span {
     color: royalblue;
 }
 
-.citationInicio {
+.citation {
     font-size: 2rem;
     font-family: typewriter, monospace;
-    line-height: 3rem;
-    padding-bottom: 3em;
     color: rgba(255, 255, 255, 0.7);
+    line-height: 3rem;
+    padding-bottom: 10vh;
 }
 
-.authorCitationIn {
+.author {
     font-size: 2rem;
     font-family: typeleorio;
     color: rgba(255, 255, 255, 0.8);
-    padding-bottom: 2em;
 }
-
-/*--------------------Right-Inicio--------------------*/
-
-.rightInicio {}
 
 #inicioBack {
     background-image: url("inicioPlaneta.png");
     background-size: cover;
     background-repeat: no-repeat;
     position: absolute;
-
     right: 0;
-    height: 115vh;
     width: 55vw;
+    height: 115vh;
 }
 
-.clickHere {
-    text-decoration: underline;
-    cursor: pointer;
-    font-size: 2.2rem;
-    font-family: josefinsans;
-    color: rgb(255, 255, 255, 0.7);
-    letter-spacing: 1px;
-}
-
-/*=====================APRESENTAÇÃO==================================*/
+/*===========================APRESENTAÇÃO===========================*/
 
 #apresent {
     display: flex;
-    justify-content: space-between;
-    background-color: rgb(20, 20, 20);
-    padding: 10rem 5%;
+    background-color: rgb(10, 10, 10);
+    padding: 10% 10%;
 }
 
 .apresent-img {
-    width: 30vw;
+    width: 40%;
     height: fit-content;
 }
 
@@ -270,13 +252,12 @@ span {
     display: flex;
     flex-direction: column;
     justify-content: space-evenly;
-    padding-left: 5rem;
-    width: 100%;
+    padding-left: 3em;
 }
 
 .title {
     font-size: 4rem;
-    font-family: worksans;
+    font-family: 'Archivo', sans-serif;
     color: white;
 }
 
@@ -285,48 +266,313 @@ span {
 }
 
 .text {
-    font-size: 2.2rem;
+    font-size: 2rem;
     font-family: mssansserif;
     color: lightgray;
-    line-height: 4rem;
+    line-height: 3.5rem;
 }
 
-/*--------------------thankfull--------------------*/
+/*===========================EXPERIENCIA===========================*/
+
+#experiencia {
+    display: flex;
+    flex-direction: column;
+    font-family: arial;
+    color: white;
+    padding: 10% 10%;
+}
+
+.titleExperiencia {
+    font-size: 3.5rem;
+    font-family: worksans;
+    text-align: right;
+    padding-bottom: 10vh;
+}
+
+.middleExperiencia {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100%;
+}
+
+/*--------------------menu--------------------*/
+
+.menuExperiencia {
+    background-color: rgb(10, 10, 10);
+    height: fit-content
+}
+
+.optionMenuExp {
+    font-size: 2.1rem;
+    font-family: josefinsans;
+    color: whitesmoke;
+    border-left: 2px solid transparent;
+    cursor: pointer;
+    padding: 3rem 6rem;
+}
+
+/*--------------------texto-experiencia--------------------*/
+
+.containerExperiencia {
+    width: 50vw;
+    padding-left: 2em;
+}
+
+.titleContainerExp {
+    font-size: 2.2rem;
+    padding-bottom: 2vh;
+    font-family: montserratbold;
+}
+
+.subtitleContainerExp {
+    font-size: 2rem;
+    font-family: montserratsemibold;
+    color: royalblue;
+    padding-bottom: 1vh;
+}
+
+.textContainerExp {
+    font-size: 1.8em;
+    line-height: 3rem;
+    color: rgba(211, 211, 211, 0.8);
+    font-family: mssansserif;
+}
+
+/*--------------------certificados-------------------*/
+
+.contCertificate {
+    display: none;
+    font-size: 2rem;
+    text-align: center;
+    padding-top: 3rem;
+}
+
+.titleCertificates {
+    color: lightgray;
+    padding-bottom: 4rem;
+}
+
+.optionCertificates {
+    font-size: 2.2rem;
+    font-family: josefinsanslight;
+    color: white;
+    text-decoration: underline;
+    cursor: pointer;
+    margin-bottom: 2rem;
+    margin: auto;
+}
+
+.optionsCertificates {
+    display: flex;
+    justify-content: center;
+    text-decoration: none;
+    line-height: 10vh;
+    padding-bottom: 2em;
+}
+
+.optionCertificates2 {
+    display: flex;
+    flex-direction: row;
+    margin: auto;
+    line-height: 10vh;
+    padding-bottom: 2em;
+}
+
+.alignCertificate {
+    display: flex;
+    justify-content: center;
+}
+
+.certificates {
+    display: none;
+    font-size: 1.9rem;
+    font-family: josefinsans;
+    color: black;
+    font-weight: bold;
+    border-radius: 2em;
+    cursor: pointer;
+    width: fit-content;
+    padding: 1.5rem 2.5rem;
+    margin-bottom: 4rem;
+}
+
+/*--------------------imagens-experiencia--------------------*/
+
+.containerImgExp {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    padding: 1rem 0 0em 0;
+}
+
+.containerImgExp-img {
+    display: none;
+    width: 70em;
+}
+
+.containerImgExp-img2 {
+    display: none;
+    height: fit-content;
+}
+
+.containerImgExp-img3 {
+    display: none;
+}
+
+.legendContImgExp {
+    font-size: 1.5rem;
+    color: rgba(211, 211, 211, 0.7);
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 0.5rem 0 2rem 0;
+}
+
+.downloadCvExp {
+    text-align: right;
+    font-size: 1.7rem;
+    font-family: josefinsans;
+    color: black;
+    font-weight: bold;
+    border-radius: 2em;
+    cursor: pointer;
+    width: fit-content;
+    padding: 1.5rem;
+}
+
+/*----------hover----------*/
+
+.optionMenuExp:hover {
+    border-left: 2px solid royalblue;
+}
+
+.optionMenuExp:hover, .downloadCvExp:hover {
+    opacity: 0.7;
+}
+
+.optionCertificates:hover {
+    opacity: 0.8;
+}
+
+.certificates:hover {
+    opacity: 0.8;
+}
+
+/*=====================PROJETOS==================================*/
+
+#projetos {
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(10, 10, 10);
+    padding: 10% 10%;
+}
+
+.titleProjetos {
+    font-size: 4rem;
+    font-family: worksans;
+    color: white;
+    text-align: center;
+    padding-bottom: 15rem;
+}
+
+/*--------------------quadrado--------------------*/
+
+.menuProjetos {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 5rem;
+
+}
+
+.menuProjetos2 {
+    display: flex;
+    justify-content: space-evenly;
+    width: 100%;
+}
+
+.eachProjetos {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    background-color: black;
+    border: 1px solid rgba(65, 105, 225, 0.5);
+    width: 35rem;
+    height: 30em;
+    padding: 2rem;
+    margin: auto 2rem;
+}
+
+.titleProj {
+    font-size: 2rem;
+    font-family: montserratbold;
+    color: rgba(255, 255, 255);
+}
+
+.textProj {
+    font-size: 1.8rem;
+    font-family: mssansserif;
+    color: lightgray;
+    line-height: 3rem;
+}
+
+.entrarProj {
+    font-size: 2rem;
+    font-family: josefinsanssemibold;
+    color: #4169e1;
+    border-bottom: 1px solid rgba(10, 10, 10, 0);
+}
+
+.legendProjetos {
+    text-align: end;
+    font-size: 1.7rem;
+    font-family: arial;
+    color: rgba(211, 211, 211, 0.6);
+    padding-top: 7rem;
+}
+
+/*--------------------hover--------------------*/
+
+.entrarProj:hover {
+    border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+/*===========================THANKFULL===========================*/
 
 #thankfull {
     text-align: center;
     font-size: 5rem;
     font-family: mssansserif;
-    padding: 25vh 0;
+    padding: 10% 5%;
 }
 
 .menuFooter {
     font-size: 3rem;
     font-family: josefinsans;
     line-height: 2em;
-    padding: 0 0 15rem 5%;
+    padding: 0 0 15rem 10%;
 }
-
-.btnMenuFooter {}
 
 .btnMenuFooter-a {
     color: lightgray;
     text-decoration: underline;
 }
 
+/*----------menu-footer-hover----------*/
+
 .btnMenuFooter-a:hover {
     opacity: 0.6;
 }
 
-/*--------------------footer--------------------*/
+
+
+/*===========================FOOTER===========================*/
 
 footer {
     display: flex;
-    justify-content: space-between;
     align-items: center;
-    padding: 2em 1em;
-    margin: 0 5%;
-    border-top: 1px solid rgba(255, 255, 255, 0.5);
+    justify-content: space-between;
+    border-top: 1px solid rgba(255, 255, 255, 0.1);
+    margin: 0 8%;
+    padding: 2%;
 }
 
 .contatos {
@@ -347,66 +593,82 @@ footer {
     color: rgba(211, 211, 211, 0.6);
 }
 
-.copyright {}
-
 .copyright-img {
     width: 4rem;
     margin-left: 1rem;
 }
 
-/*=====================Media-Querys==================================*/
+/*=====================MEDIA-QUERYS==================================*/
+
+@media (max-width: 1200px) {
+
+    /*----------apresentação----------*/
+    .apresent-img {
+        display: none;
+    }
+
+    .title {
+        padding-bottom: 3rem;
+    }
+
+    /*----------experiencia----------*/
+    .middleExperiencia {
+        flex-direction: column;
+    }
+
+    .menuExperiencia {
+        margin-bottom: 3rem;
+        width: 100%;
+    }
+
+    .containerExperiencia {
+        text-align: center;
+        width: 100%;
+        padding: 0;
+    }
+
+    .optionsCertificates {
+        display: flex;
+        flex-direction: column;
+        padding: 0;
+    }
+
+    .optionCertificates2 {
+        flex-direction: column;
+    }
 
 
+    .containerImgExp-img {
+        width: 100%;
+    }
 
-/*--------------------900px--------------------*/
+    .optionMenuExp:hover {
+        opacity: 0.8;
+        border-left: 2px transparent;
+        border-bottom: 2px solid rgba(65, 105, 225, 0.7);
+    }
 
-@media (max-width: 900px) {
-    #apresent {
+    /*----------proj----------*/
+    .menuProjetos, .menuProjetos2 {
         flex-direction: column;
         align-items: center;
+        margin: 0;
     }
 
-    .apresent-img {
-        width: 50%;
-    }
-
-    .title {
-        padding-bottom: 5rem;
-    }
-
-    .containerText {
-        text-align: center;
-        padding: 0%;
-    }
-
-}
-
-/*=====================media-query==================================*/
-
-
-@media (max-width: 1024px) {
-    html {
-        font-size: 60%;
-    }
-
-    .leftInicio {
-        width: 70%;
-    }
-
-    /* lalala */
-
-    .title {
-        padding-bottom: 1.5rem;
+    .eachProjetos {
+        width: 70vw;
+        margin-bottom: 5rem;
     }
 }
 
-/*--------------------768px--------------------*/
+/*=====================768px=====================*/
 
 @media (max-width: 768px) {
     html {
-        font-size: 55%;
+        font-size: 58%;
     }
 
+    /*----------menu-fixado----------*/
     header {
         justify-content: center;
     }
@@ -414,38 +676,12 @@ footer {
     .menu {
         display: none;
     }
-.logo{padding: 0;}
-    .leftInicio {
-        width: 80%;
-    }
-}
 
-/*--------------------650px--------------------*/
-
-@media (max-width: 650px) {
-    .leftInicio {
-        width: 90%;
+    .logo {
+        padding: 0;
     }
 
-    /* footer */
-    footer {
-        flex-direction: column;
-        align-items: center;
-        line-height: 2em;
-    }
-
-    .contatos {
-        width: 20rem;
-        padding-bottom: 2em;
-    }
-}
-
-/*--------------------500px--------------------*/
-
-@media (max-width: 500px) {
-    html {
-        font-size: 55%;
-    }
+    /*----------início----------*/
 
     #inicio {
         height: fit-content;
@@ -456,29 +692,103 @@ footer {
     }
 
     .leftInicio {
-        width: 100%;
+        width: 80%;
+        padding: 0%;
+    }
+
+    .leftInicio {
         text-align: center;
-        padding: 1rem;
+        width: 100%;
     }
 
-    .apresent-img {
-        width: 95%;
+    .contentWelcome {
+        padding: 20vw 0;
     }
 
-    #apresent {
-        padding: 8rem 1%;
+    .leftInicio {
+        padding: 0 5%;
+    }
+
+    .author {
+        padding-bottom: 10%;
+    }
+
+    /*----------apresentação----------*/
+    .containerText {
+        padding: 0%;
+    }
+
+}
+
+/*=====================610px=====================*/
+
+@media (max-width: 610px) {
+
+    /*----------footer----------*/
+    footer {
+        flex-direction: column;
+        line-height: 2em;
+    }
+
+    .contatos {
+        justify-content: start;
+        width: 100%;
+        padding: 2vh;
+    }
+
+    .contatos-img {
+        padding-right: 2rem;
+    }
+
+    .containerCopyright {
+        justify-content: flex-end;
+        width: 100%;
     }
 }
 
-/*--------------------300px--------------------*/
+/*=====================500px=====================*/
 
-@media (max-width: 300px) {
+@media (max-width: 425px) {
     html {
-        font-size: 50%;
+        font-size: 55%;
     }
 
-    .apresent-img {
-        display: none;
+    /*----------início----------*/
+    .leftInicio {
+        padding: 0 2%;
     }
 
+    /*----------apresentação----------*/
+    #apresent {
+        padding: 10% 2%;
+    }
+
+    /*----------experiência----------*/
+    #experiencia {
+        padding: 10% 2%;
+    }
+
+    /*----------projetos----------*/
+    #projetos {
+        padding: 10% 2%;
+    }
+
+    .eachProjetos {
+        margin: 5rem 0;
+        width: fit-content;
+    }
+
+    /*----------thakfull----------*/
+    #thankfull {
+        padding: 20% 1%;
+    }
+
+    .menuFooter {
+        padding: 20% 2%;
+    }
+
+    /*----------footer----------*/
+    footer {
+        margin: 5% 2%;
+    }
 }
