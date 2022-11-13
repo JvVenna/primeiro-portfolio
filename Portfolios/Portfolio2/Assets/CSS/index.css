@@ -722,6 +722,7 @@ footer {
 /*=====================610px=====================*/
 
 @media (max-width: 610px) {
+
     /*----------início----------*/
     .contentWelcome {
         padding: 15vh 0;
@@ -758,11 +759,22 @@ footer {
         padding: 0 2%;
     }
 
-    .contentWelcome{padding: 13vh 0;}
+    .contentWelcome {
+        padding: 13vh 0;
+    }
 
     /*----------apresentação----------*/
     #apresent {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
         padding: 10% 2%;
+    }
+
+    .apresent-img {
+        display: flex;
+        width: 80%;
+        padding-bottom: 5rem;
     }
 
     /*----------experiência----------*/
