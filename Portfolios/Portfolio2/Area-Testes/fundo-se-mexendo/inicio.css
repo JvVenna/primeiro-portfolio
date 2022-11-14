@@ -239,14 +239,8 @@ span {
 
     .leftInicio {
         width: 80%;
-    }
-}
-
-/*--------------------650px--------------------*/
-
-@media (max-width: 650px) {
-    .leftInicio {
-        width: 90%;
+        text-align: center;
+        padding: 0;
     }
 }
 
