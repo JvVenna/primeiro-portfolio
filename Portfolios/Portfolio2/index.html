@@ -15,6 +15,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Archivo&family=Montserrat&display=swap" rel="stylesheet">
 
     <link rel="shortcut icon" href="Assets/Utilitarios/IMG/logo.ico" type="image/x-icon">
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
     <title>João Víctor</title>
 </head>
 <style>
@@ -25,13 +26,13 @@
 
 <body>
     <header>
-        <div class="logo">
+        <div class="logo" data-aos="fade-right">
             <a class="textLogo" href="/Portfolios/Portfolio2/index.html">
                 <img class="logo-img" src="Assets/utilitarios/img/logoAzulPreenchido.png">
                 <h1 class="textLogo">oão</h1>
             </a>
         </div>
-        <ul class="menu">
+        <ul class="menu" data-aos="fade-left">
             <a href="#apresent">
                 <li class="optMenu">Sobre mim</li>
             </a>
@@ -56,8 +57,9 @@
     </section>
 
     <section id="apresent">
-        <img src="Assets/Utilitarios/IMG/apresentImg.png" alt="imagem tópico Apresent" class="apresent-img">
-        <div class="containerText">
+        <img data-aos="fade-up" src="Assets/Utilitarios/IMG/apresentImg.png" alt="imagem tópico Apresent"
+            class="apresent-img">
+        <div data-aos="fade-up" class="containerText">
             <div class="title">Prazer me chamo
                 <span>João</span>!
             </div>
@@ -69,7 +71,7 @@
 
     <section id="experiencia">
         <p class="titleExperiencia">Experiência Acadêmica</p>
-        <div class="middleExperiencia">
+        <div data-aos="fade-down" class="middleExperiencia">
             <div class="menuExperiencia">
                 <div id="btnHardware" class="optionMenuExp">Hardware</div>
                 <div id="btnRedes" class="optionMenuExp">Redes de Computadores</div>
@@ -122,14 +124,13 @@
 
     <section id="projetos">
         <p class="titleProjetos">Meus Projetos</p>
-        <section class="menuProjetos">
+        <section data-aos="fade-right" class="menuProjetos">
             <div class="eachProjetos">
                 <div class="titleProj">
-                    <p>Integral Clínica (nome fantasia) Empresa de plano de sáude</p>
+                    <p>Integral Clínica</p>
                 </div>
                 <div class="textProj">
-                    <p>site institucional com as seguintes páginas:Home, Sobre nós, Torne-se Cliente, Entrar, feito
-                        em HTML, CSS e JS - ainda em Desenvolvimento</p>
+                    <p>site institucional, feito em HTML, CSS e JS - ainda em Desenvolvimento</p>
                 </div>
                 <a href="https://integralclinica.netlify.app/" target="_blank">
                     <p class="entrarProj">Visitar site</p>
@@ -141,8 +142,8 @@
                     <p></p>
                 </div>
                 <div class="textProj">
-                    <p>sistema de gerenciamento de estoque, (site não verificado, no acesso, clique em "saiba mais" e
-                        depois "acessar esse site não seguro") - ainda em desenvolvimento.</p>
+                    <p>site de gerenciamento de estoque, site não verificado, no acesso, >> "saiba mais" >> "acessar
+                        esse site não seguro" - ainda em desenvolvimento.</p>
                 </div>
                 <a href="https://pieridine-pointers.000webhostapp.com/" target="_blank">
                     <p class="entrarProj">Visitar site</p>
@@ -194,12 +195,18 @@
         <p class="legendProjetos">Todos os projetos e essa página, são 100% de minha autoria</p>
     </section>
 
-    <p id="thankfull">Obrigado pela visita. Estou a disposição</p>
+    <p data-aos="fade-down" id="thankfull">Obrigado pela visita. Estou a disposição</p>
     <ul class="menuFooter">
         <li><a class="btnMenuFooter-a" href="#apresent">Sobre mim</a></li>
         <li><a class="btnMenuFooter-a" href="#experiencia">Conhecimentos</a></li>
         <li><a class="btnMenuFooter-a" href="#projetos">Projetos</a></li>
     </ul>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+        AOS.init({
+            duration: 1500,
+        });
+    </script>
 </body>
 
 <footer>

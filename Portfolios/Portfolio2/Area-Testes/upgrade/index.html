@@ -15,6 +15,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Archivo&family=Montserrat&display=swap" rel="stylesheet">
 
     <link rel="shortcut icon" href="Assets/Utilitarios/IMG/logo.ico" type="image/x-icon">
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
     <title>João Víctor</title>
 </head>
 <style>
@@ -24,10 +25,105 @@
 </style>
 
 <body>
+    <header>
+        <div class="logo"data-aos="fade-right">
+            <a class="textLogo" href="/Portfolios/Portfolio2/index.html">
+                <img class="logo-img" src="Assets/utilitarios/img/logoAzulPreenchido.png">
+                <h1 class="textLogo">oão</h1>
+            </a>
+        </div>
+        <ul class="menu" data-aos="fade-left">
+            <a href="#apresent">
+                <li class="optMenu">Sobre mim</li>
+            </a>
+            <a href="#experiencia">
+                <li class="optMenu">Conhecimentos</li>
+            </a>
+            <a href="#projetos">
+                <li class="optMenu">Projetos</li>
+            </a>
+        </ul>
+    </header>
+
+    <section id="inicio">
+        <div id="inicioBack"></div>
+        <div class="leftInicio">
+            <div class="contentWelcome">Seja bem-vindo ao meu <span>currículo digital</span>
+                visitante! Espero que aproveite a navegação e sinta-se em casa.
+            </div>
+            <p class="citation"></p>
+            <p class="author">Elbert Hubbard, escritor.</p>
+        </div>
+    </section>
+
+    <section id="apresent">
+        <img data-aos="fade-up" src="Assets/Utilitarios/IMG/apresentImg.png" alt="imagem tópico Apresent" class="apresent-img">
+        <div data-aos="fade-up" class="containerText">
+            <div class="title">Prazer me chamo
+                <span>João</span>!
+            </div>
+            <article class="text">eu sou um entusiasta discente do ramo de T.I., ou seja, um estudioso da área; sempre
+                tendo como base, que o conhecimento que tenho é pouco, tornando-me um incessante buscador da
+                informação, sem limites quando o assunto é pensar alto.</aticle>
+        </div>
+    </section>
+
+    <section id="experiencia">
+        <p class="titleExperiencia">Experiência Acadêmica</p>
+        <div class="middleExperiencia">
+            <div class="menuExperiencia">
+                <div id="btnHardware" class="optionMenuExp">Hardware</div>
+                <div id="btnRedes" class="optionMenuExp">Redes de Computadores</div>
+                <div id="btnDev" class="optionMenuExp">Desenvolvimento</div>
+                <div id="btnOffice" class="optionMenuExp">Pacote Office / Outros cursos</div>
+            </div>
+            <div class="containerExperiencia">
+                <p class="titleContainerExp"></p>
+                <p class="subtitleContainerExp"></p>
+                <p class="textContainerExp">- Clique em uma das opções para conferir -</p>
+            </div>
+        </div>
+        <div class="contCertificate">
+            <p class="titleCertificates">- Clique em um dos certificados abaixo para conferí-los -</p>
+            <div class="optionsCertificates">
+                <a class="optionCertificates" href="Assets/Utilitarios/PDF/certSenai.pdf" target="_blank">
+                    <p class="optionCertificates">Excel Básico • Senai</p>
+                </a>
+                <a class="optionCertificates" href="Assets/Utilitarios/PDF/certPeople.pdf" target="_blank">
+                    <p class="optionCertificates">Excel - Word - powerPoint • People</p>
+                </a>
+                <a class="optionCertificates" href="Assets/Utilitarios/PDF/certCIEE.PDF" target="_blank">
+                    <p class="optionCertificates">PowerPoint • CIEE</p>
+                </a>
+            </div>
+            <div class="optionCertificates2">
+                <a class="optionCertificates" href="Assets/Utilitarios/PDF/expLogSenai.pdf" target="_blank">
+                    <p class="optionCertificates">Lógica de Programação • Senai</p>
+                </a>
+                <a class="optionCertificates" href="Assets/Utilitarios/PDF/expMicrocamp.pdf" target="_blank">
+                    <p class="optionCertificates">Manutenção Pc's - Celulares (básico) • Microcamp</p>
+                </a>
+            </div>
+        </div>
+        <div class="containerImgExp">
+            <img class="containerImgExp-img" src="" alt="imagem experiência">
+            <img class="containerImgExp-img2" src="" alt="imagem experiência2">
+            <img class="containerImgExp-img3" src="" alt="imagem experiência3">
+            <p class="legendContImgExp"></p>
+        </div>
+        <div class="alignCertificate">
+            <button class="certificates">Visualizar certificados</button>
+        </div>
+
+        <button class="downloadCvExp"><a class="downloadCvExp" href="Assets/Utilitarios/PDF/Cv10_LastVersion_Víctor.pdf"
+                target="_blank">Quero ver seu CV em
+                PDF</a></button>
+
+    </section>
 
     <section id="projetos">
         <p class="titleProjetos">Meus Projetos</p>
-        <div class="menuProjetos">
+        <section class="menuProjetos">
             <div class="eachProjetos">
                 <div class="titleProj">
                     <p>Integral Clínica (nome fantasia) Empresa de plano de sáude</p>
@@ -53,6 +149,7 @@
                     <p class="entrarProj">Visitar site</p>
                 </a>
             </div>
+
             <div class="eachProjetos">
                 <div class="titleProj">
                     <p>Meu primeiro portfólio</p>
@@ -64,6 +161,10 @@
                     <p class="entrarProj">Visitar site</p>
                 </a>
             </div>
+        </section>
+
+        <section class="menuProjetos2">
+
             <div class="eachProjetos">
                 <div class="titleProj">
                     <p>Projetos Dinâmicos</p>
@@ -76,6 +177,7 @@
                     <p class="entrarProj">Visitar site</p>
                 </a>
             </div>
+
             <div class="eachProjetos">
                 <div class="titleProj">
                     <p>Em breve</p>
@@ -87,7 +189,7 @@
                     <p></p>
                 </div>
             </div>
-        </div>
+        </section>
 
         <p class="legendProjetos">Todos os projetos e essa página, são 100% de minha autoria</p>
     </section>
@@ -98,6 +200,12 @@
         <li><a class="btnMenuFooter-a" href="#experiencia">Conhecimentos</a></li>
         <li><a class="btnMenuFooter-a" href="#projetos">Projetos</a></li>
     </ul>
+
+
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
 </body>
 
 <footer>

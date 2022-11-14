@@ -146,12 +146,12 @@ body {
     background-size: contain;
     width: 120%;
     height: 120vh;
+    z-index: -1;
+    position: absolute;
 }
 
 .contentInicio {
-    position: absolute;
-    background-color: blue;
-    width: ;
+    color: white;
 }
 
 @keyframes is-panning {
@@ -160,50 +160,53 @@ body {
     }
 }
 
-/*--------------------Left--------------------*/
+#inicio {
+    display: flex;
+    flex-direction: row;
+    background-image: url("inicioStars.png");
+    background-size: contain;
+    height: 120vh;
+}
 
 .leftInicio {
-    color: white;
-    padding-left: 1rem;
     width: 60%;
-    z-index: 1;
+    padding-left: 1vh;
 }
 
 .contentWelcome {
     font-size: 4rem;
-    padding: 4em 0 4em 0;
     font-family: mssansserif;
     line-height: 6rem;
+    padding: 30vh 0 15vh 0;
 }
 
 span {
     color: royalblue;
 }
 
-.citationInicio {
+.citation {
     font-size: 2rem;
     font-family: typewriter, monospace;
-    line-height: 3rem;
     color: rgba(255, 255, 255, 0.7);
+    line-height: 3rem;
+    padding-bottom: 10vh;
 }
 
-.authorCitationIn {
+.author {
     font-size: 2rem;
     font-family: typeleorio;
     color: rgba(255, 255, 255, 0.8);
-    padding-bottom: 2em;
 }
 
-/*--------------------Right-Inicio--------------------*/
-
 #inicioBack {
-    background-image: url("/Assets/CSS/inicioPlaneta.png");
+    background-image: url("/Portfolios/Portfolio2/Assets/CSS/inicioPlaneta.png");
     background-size: cover;
     background-repeat: no-repeat;
     position: absolute;
     right: 0;
-    height: 115vh;
+    z-index: -1;
     width: 55vw;
+    height: 115vh;
 }
 
 /*=====================media-query==================================*/

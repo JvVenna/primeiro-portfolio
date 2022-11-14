@@ -492,7 +492,7 @@ span {
 .eachProjetos {
     display: flex;
     flex-direction: column;
-    justify-content: space-around;
+    justify-content: space-between;
     background-color: black;
     border: 1px solid rgba(65, 105, 225, 0.5);
     width: 35rem;

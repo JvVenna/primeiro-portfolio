@@ -140,14 +140,330 @@ body {
     src: url('/Portfolios/Portfolio2/Assets/Utilitarios/Fontes/worksans/WorkSans-Bold.ttf');
 }
 
+/*=====================MENU-FIXADO==================================*/
+
+header {
+    display: flex;
+    justify-content: space-between;
+    background-color: rgba(0, 0, 0, 0.9);
+    z-index: 2;
+    position: fixed;
+    width: 100vw;
+    padding: 2%;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+    padding-left: 10%;
+}
+
+.logo-img {
+    width: 3rem;
+    height: fit-content;
+}
+
+.textLogo {
+    display: flex;
+    font-size: 4rem;
+    font-family: sansation;
+    color: white;
+}
+
+.menu {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-size: 2rem;
+    font-family: worksans;
+    width: 45vw;
+    padding-right: 10%;
+}
+
+.optMenu {
+    color: lightgray;
+}
+
+/*===========================INICIO===========================*/
+
+#inicio {
+    display: flex;
+    flex-direction: row;
+    background-image: url("inicioStars.png");
+    background-size: contain;
+    height: 120vh;
+}
+
+.leftInicio {
+    z-index: 1;
+    width: 60%;
+    padding-left: 1vh;
+}
+
+.contentWelcome {
+    font-size: 4rem;
+    font-family: mssansserif;
+    line-height: 6rem;
+    padding: 30vh 0 15vh 0;
+}
+
+span {
+    color: royalblue;
+}
+
+.citation {
+    font-size: 2rem;
+    font-family: typewriter, monospace;
+    color: rgba(255, 255, 255, 0.7);
+    line-height: 3rem;
+    padding-bottom: 10vh;
+}
+
+.author {
+    font-size: 2rem;
+    font-family: typeleorio;
+    color: rgba(255, 255, 255, 0.8);
+}
+
+#inicioBack {
+    background-image: url("inicioPlaneta.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: absolute;
+    right: 0;
+    width: 55vw;
+    height: 115vh;
+}
+
+/*===========================APRESENTAÇÃO===========================*/
+
+#apresent {
+    display: flex;
+    background-color: rgb(10, 10, 10);
+    padding: 10% 10%;
+}
+
+.apresent-img {
+    width: 40%;
+    height: fit-content;
+}
+
+.containerText {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    padding-left: 3em;
+}
+
+.title {
+    font-size: 4rem;
+    font-family: 'Archivo', sans-serif;
+    color: white;
+}
+
+span {
+    color: royalblue;
+}
+
+.text {
+    font-size: 2rem;
+    font-family: mssansserif;
+    color: lightgray;
+    line-height: 3.5rem;
+}
+
+/*===========================EXPERIENCIA===========================*/
+
+#experiencia {
+    display: flex;
+    flex-direction: column;
+    font-family: arial;
+    color: white;
+    padding: 10% 10%;
+}
+
+.titleExperiencia {
+    font-size: 3.5rem;
+    font-family: worksans;
+    text-align: right;
+    padding-bottom: 10vh;
+}
+
+.middleExperiencia {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100%;
+}
+
+/*--------------------menu--------------------*/
+
+.menuExperiencia {
+    background-color: rgb(10, 10, 10);
+    height: fit-content
+}
+
+.optionMenuExp {
+    font-size: 2.1rem;
+    font-family: josefinsans;
+    color: whitesmoke;
+    border-left: 2px solid transparent;
+    cursor: pointer;
+    padding: 3rem 6rem;
+}
+
+/*--------------------texto-experiencia--------------------*/
+
+.containerExperiencia {
+    width: 50vw;
+    padding-left: 2em;
+}
+
+.titleContainerExp {
+    font-size: 2.2rem;
+    padding-bottom: 2vh;
+    font-family: montserratbold;
+}
+
+.subtitleContainerExp {
+    font-size: 2rem;
+    font-family: montserratsemibold;
+    color: royalblue;
+    padding-bottom: 1vh;
+}
+
+.textContainerExp {
+    font-size: 1.8em;
+    line-height: 3rem;
+    color: rgba(211, 211, 211, 0.8);
+    font-family: mssansserif;
+}
+
+/*--------------------certificados-------------------*/
+
+.contCertificate {
+    display: none;
+    font-size: 2rem;
+    text-align: center;
+    padding-top: 3rem;
+}
+
+.titleCertificates {
+    color: lightgray;
+    padding-bottom: 4rem;
+}
+
+.optionCertificates {
+    font-size: 2.2rem;
+    font-family: josefinsanslight;
+    color: white;
+    text-decoration: underline;
+    cursor: pointer;
+    margin-bottom: 2rem;
+    margin: auto;
+}
+
+.optionsCertificates {
+    display: flex;
+    justify-content: center;
+    text-decoration: none;
+    line-height: 10vh;
+    padding-bottom: 2em;
+}
+
+.optionCertificates2 {
+    display: flex;
+    flex-direction: row;
+    margin: auto;
+    line-height: 10vh;
+    padding-bottom: 2em;
+}
+
+.alignCertificate {
+    display: flex;
+    justify-content: center;
+}
+
+.certificates {
+    display: none;
+    font-size: 1.9rem;
+    font-family: josefinsans;
+    color: black;
+    font-weight: bold;
+    border-radius: 2em;
+    cursor: pointer;
+    width: fit-content;
+    padding: 1.5rem 2.5rem;
+    margin-bottom: 4rem;
+}
+
+/*--------------------imagens-experiencia--------------------*/
+
+.containerImgExp {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    padding: 1rem 0 0em 0;
+}
+
+.containerImgExp-img {
+    display: none;
+    width: 70em;
+}
+
+.containerImgExp-img2 {
+    display: none;
+    height: fit-content;
+}
+
+.containerImgExp-img3 {
+    display: none;
+}
+
+.legendContImgExp {
+    font-size: 1.5rem;
+    color: rgba(211, 211, 211, 0.7);
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 0.5rem 0 2rem 0;
+}
+
+.downloadCvExp {
+    text-align: right;
+    font-size: 1.7rem;
+    font-family: josefinsans;
+    color: black;
+    font-weight: bold;
+    border-radius: 2em;
+    cursor: pointer;
+    width: fit-content;
+    padding: 1.5rem;
+}
+
+/*----------hover----------*/
+
+.optionMenuExp:hover {
+    border-left: 2px solid royalblue;
+}
+
+.optionMenuExp:hover, .downloadCvExp:hover {
+    opacity: 0.7;
+}
+
+.optionCertificates:hover {
+    opacity: 0.8;
+}
+
+.certificates:hover {
+    opacity: 0.8;
+}
+
 /*=====================PROJETOS==================================*/
 
 #projetos {
     display: flex;
     flex-direction: column;
     background-color: rgb(10, 10, 10);
-    padding: 10% 0;
-
+    padding: 10% 10%;
 }
 
 .titleProjetos {
@@ -164,8 +480,13 @@ body {
     display: flex;
     justify-content: space-around;
     margin-bottom: 5rem;
-    width: fit-content;
-    overflow-x: scroll;
+
+}
+
+.menuProjetos2 {
+    display: flex;
+    justify-content: space-evenly;
+    width: 100%;
 }
 
 .eachProjetos {
@@ -174,10 +495,10 @@ body {
     justify-content: space-around;
     background-color: black;
     border: 1px solid rgba(65, 105, 225, 0.5);
-    width: 35em;
+    width: 35rem;
     height: 30em;
     padding: 2rem;
-    margin: 0 2em;
+    margin: auto 2rem;
 }
 
 .titleProj {
@@ -381,7 +702,7 @@ footer {
     }
 
     .contentWelcome {
-        padding: 20vw 0;
+        padding: 20vh 0;
     }
 
     .leftInicio {
@@ -396,12 +717,16 @@ footer {
     .containerText {
         padding: 0%;
     }
-
 }
 
 /*=====================610px=====================*/
 
 @media (max-width: 610px) {
+
+    /*----------início----------*/
+    .contentWelcome {
+        padding: 15vh 0;
+    }
 
     /*----------footer----------*/
     footer {
@@ -428,18 +753,28 @@ footer {
 /*=====================500px=====================*/
 
 @media (max-width: 425px) {
-    html {
-        font-size: 55%;
-    }
 
     /*----------início----------*/
     .leftInicio {
         padding: 0 2%;
     }
 
+    .contentWelcome {
+        padding: 13vh 0;
+    }
+
     /*----------apresentação----------*/
     #apresent {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
         padding: 10% 2%;
+    }
+
+    .apresent-img {
+        display: flex;
+        width: 80%;
+        padding-bottom: 5rem;
     }
 
     /*----------experiência----------*/
@@ -469,5 +804,9 @@ footer {
     /*----------footer----------*/
     footer {
         margin: 5% 2%;
+    }
+
+    .contatos, .containerCopyright {
+        justify-content: center;
     }
 }
