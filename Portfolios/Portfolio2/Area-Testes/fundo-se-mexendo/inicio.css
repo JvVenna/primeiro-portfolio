@@ -9,8 +9,9 @@ html {
     font-size: 65%;
 }
 
-body {
-    overflow-x: hidden
+body,
+.contentInicio {
+    overflow-x: hidden;
 }
 
 /*----------------------------fontes----------------------------*/
@@ -217,9 +218,15 @@ span {
         font-size: 60%;
     }
 
+    body,
+    .contentInicio {
+        overflow-x: hidden;
+    }
+
     .leftInicio {
         width: 70%;
     }
+
 }
 
 /*--------------------950px--------------------*/
@@ -227,6 +234,10 @@ span {
 @media (max-width: 950px) {
     html {
         font-size: 55%;
+    }
+    body,
+    .contentInicio {
+        overflow-x: hidden;
     }
 }
 
@@ -236,7 +247,10 @@ span {
     html {
         font-size: 55%;
     }
-
+    body,
+    .contentInicio {
+        overflow-x: hidden;
+    }
     .leftInicio {
         width: 80%;
         text-align: center;
@@ -251,6 +265,10 @@ span {
         font-size: 53%;
     }
 
+    body,
+    .contentInicio {
+        overflow-x: hidden;
+    }
     #inicioBack {
         display: none;
     }
@@ -268,6 +286,11 @@ span {
 /*--------------------340px--------------------*/
 
 @media (max-width: 340px) {
+    body,
+    .contentInicio {
+        overflow-x: hidden;
+    }
+
     .contentWelcome {
         padding: 4em 0;
     }
