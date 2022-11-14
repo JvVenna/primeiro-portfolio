@@ -8,17 +8,18 @@
     <link rel="shortcut icon" href="Assets/utilitários/img/favicon.ico" type="image/x-icon">
     <link rel="stylesheet" href="Assets/index.css">
     <script src="https://unpkg.com/scrollreveal"></script>
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
     <title>João Víctor // Port</title>
 </head>
 
-<body>
-    <h1 id="maked">Feito por Víctor</h1>
+<body >
+    <h1 id="maked" data-aos="fade-down">Feito por Víctor</h1>
 
-    <div id="menu">
-        <h2 class="optMenu opt headline"><a class="opt" href="Portfolios/Portfolio2/index.html">
+    <div data-aos="fade-right" id="menu">
+        <h2  class="optMenu opt"><a class="opt" href="Portfolios/Portfolio2/index.html">
                 Ver currículo digital</a>
         </h2>
-        <h2 class="optMenu opt2 headline">Mais em breve</h2>
+        <h2 class="optMenu opt2">Mais em breve</h2>
     </div>
 
     <div id="social">
@@ -31,9 +32,13 @@
             <img class="social-img social2" src="/Assets/utilitários/IMG/logoIn.png" alt="Logo Linkedin">
         </a>
     </div>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+        AOS.init({
+            duration: 1500,
+        });
+    </script>
 </body>
-<script>
-    ScrollReveal().reveal('.headline');
-</script>
+
 
 </html>
