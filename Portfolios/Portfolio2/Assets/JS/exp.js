@@ -34,7 +34,7 @@ function containerHardware() {
 
     allTexts.title.innerHTML = 'Técnico em informática - TI 1.21 • Senac 2021';
     allTexts.subtitle.innerHTML = 'Hardware de computadores';
-    allTexts.text.innerHTML = 'Hardware no Senac me deu a base   conhecimento que eu tenho hoje: <br> montagem Pc’s / notebooks - troca de peças; <br> uso de multímetro; <br> manutenção preventiva / corretiva - ensino prático; <br> formatação de computadores; <br> criação de modelo de OS; <br></br> Projeto final: Simular criação de empresa de manutenção, atender cliente profissionalmente, com Ordem de Serviço, orçamento, fluxograma de funcionamento e outros.';
+    allTexts.text.innerHTML = 'Hardware no Senac me deu a base conhecimento que eu tenho hoje: <br> montagem Pc’s / notebooks - troca de peças; <br> uso de multímetro; <br> manutenção preventiva e corretiva; <br> formatação de computadores; <br> criação de modelo de ordem de serviço; <br></br> Projeto final: Simular criação de empresa de manutenção, atender cliente profissionalmente, com ordem de serviço, orçamento, fluxograma de funcionamento e outros.';
     allImages.imgShape.style.display = "flex";
     allImages.imgShape.src = allImages.imgHardware;
     allTexts.caption.style.display = 'flex';
@@ -47,7 +47,7 @@ function containerRedes() {
 
     allTexts.title.innerHTML = 'Técnico em informática - TI 1.21 • Senac 2021 - 22';
     allTexts.subtitle.innerHTML = 'Redes de Computadores';
-    allTexts.text.innerHTML = 'Redes de Computadores no Senac me ensinou a base sobre a Internet: <br> configuração inicial Windows Server 2019: (básico) <br> configurar escopo p / range de IP’s; <br> conceito de IP’s - V4 / V6; <br> criar U.O., usuários, G.P.O., cotas, triagens de arquivos; <br> gereciar backup server; <br> configuração e de modem de internet; <br></br> Projeto final : Simular criação de empresa de redes, atender cliente profissionalmente, com Ordem de Serviço, orçamento, e apresentar em PowerPoint, com tudo descrito em tabelas e imagens tudo.';
+    allTexts.text.innerHTML = 'Redes de Computadores no Senac me ensinou a base sobre a Internet: <br> tive a experiência  de fazer a configuração inicial Windows Server 2019: (básico) <br> configurar escopo p / range de IP’s; <br> conceito de IP’s - V4 / V6; <br> criar U.O., usuários, G.P.O., cotas, triagens de arquivos; <br> gereciar backup server; <br> configuração e de modem de internet; <br></br> Projeto final : Simular criação de empresa de redes, atender cliente profissionalmente, com Ordem de Serviço, orçamento, e apresentar em PowerPoint, com tudo descrito em tabelas e imagens.';
     allImages.imgShape.style.display = "flex";
     allImages.imgShape.src = allImages.imgRedes;
     allTexts.caption.style.display = 'flex';
@@ -60,7 +60,7 @@ function containerDev() {
 
     allTexts.title.innerHTML = 'Técnico em informática - TI 1.21 • Senac 2022';
     allTexts.subtitle.innerHTML = 'Desenvolvimento de Software';
-    allTexts.text.innerHTML = 'Programação foi a última matéria lecionada no Senac: <br> site Web - HTML / CSS / PHP / JS - banco de dados MySql local / online - (Intermediário); <br> essa página que você navega é 100% de minha autoria; <br> app Desk - C# banco de dados local MySql (Básico); <br> app Mobile - Programação em bloco (Básico); <br> resumo: <br> HTML / CSS - intermediário <br> JS / PHP / C# - básico <br> Mysql / SQL - básico para intermediário <br></br> Projeto final: cada aplicação foi um projeto diferente.';
+    allTexts.text.innerHTML = 'Programação foi a última matéria lecionada no Senac: <br> site Web - HTML / CSS / PHP / JS - banco de dados MySql local / online - (Intermediário); <br> essa página que você navega é 100% de minha autoria; <br> app Desk - C# banco de dados local mySQL (Básico); <br> app Mobile - Programação em bloco (Básico); <br> resumo: <br> HTML / CSS - intermediário <br> JS / PHP / C# - básico <br> mySQL / SQL - básico para intermediário <br></br> Projeto final: cada aplicação foi um projeto diferente.';
     allImages.imgShape.style.display = "flex";
     allImages.imgShape.src = allImages.imgDev;
     allTexts.caption.style.display = 'flex';
