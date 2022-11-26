@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="/portfolios/Portfolio2/Assets/Utilitarios/IMG/logo.ico" type="image/x-icon">
+    <title>Help | Jv</title>
+</head>
+<style>
+    * {
+        padding: 0;
+        margin: 0;
+    }
+
+    body {
+        background-image: linear-gradient(to right, rgb(70, 70, 70), rgba(30, 30, 30, 1));
+    }
+
+
+    @font-face {
+        font-family: sansationbold;
+        src: url('/portfolios/Portfolio2/Assets/Utilitarios/Fontes/sansation/Sansation_Light.ttf');
+    }
+
+    @font-face {
+        font-family: mssansserif;
+        src: url('/Portfolios/Portfolio2/Assets/Utilitarios/Fontes/montserrat/Montserrat-Light.otf ');
+    }
+
+    @font-face {
+        font-family: worksans;
+        src: url('/Portfolios/Portfolio2/Assets/Utilitarios/Fontes/worksans/WorkSans-Regular.ttf');
+    }
+
+
+    .title {
+        font-size: 2rem;
+        display: flex;
+        justify-content: center;
+        align-items: baseline;
+        font-family: sansationbold;
+        color: white;
+        border-bottom: 1px solid rgba(255, 255, 255, 0.5);
+        padding: 1rem;
+        margin: 2rem;
+    }
+
+    .logo-a {}
+
+    .logo {
+        width: 4rem;
+    }
+
+    .linkExterno {
+        font-family: mssansserif;
+        color: greenyellow;
+        padding-bottom: 0.5rem;
+        margin: 0 1rem;
+    }
+
+    .img {
+        text-align: center;
+        width: 100%;
+    }
+
+    .help-img {
+        width: 65vw;
+        box-shadow: 0px 2px 8px 1px rgba(0, 0, 0, 0.5);
+        border-radius: 5px;
+        position: absolute;
+        top: 55%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+    }
+
+    p,
+    .linkExterno2 {
+        font-size: 1.5rem;
+        font-family: worksans;
+        color: dodgerblue;
+        position: absolute;
+        right: 0.5rem;
+        bottom: 0.2rem;
+        width: max-content;
+        z-index: -2;
+    }
+
+    .help-img:hover {
+        width: 70vw;
+        box-shadow: 0px 2px 16px 5px rgba(0, 0, 0, 0.8);
+        transition: 0.5s;
+    }
+
+    .linkExterno2:hover,
+    .linkExterno:hover {
+        opacity: 0.5;
+    }
+</style>
+
+<body>
+    <div class="title">perfeito, este é o 2/2 passos, visite
+        <a class="linkExterno" href="https://pieridine-pointers.000webhostapp.com/" target="_blank">clicando aqui.</a>
+        <!-- <a class="logo-a" href="/portfolios/Portfolio2/index.html">
+            <img class="logo" src="/portfolios/Portfolio2/Assets/Utilitarios/IMG/logo.png" alt="logo">
+        </a> -->
+    </div>
+    <div class="img">
+        <img class="help-img" src="/portfolios/Portfolio2/Assets/Utilitarios/IMG/help2.jpg" alt="ajuda imagem 2">
+    </div>
+    <p><a class="linkExterno2" href="https://pieridine-pointers.000webhostapp.com/" target="_blank">Perfeito, desejo
+            visitar agora!</a></p>
+</body>
+
+</html>

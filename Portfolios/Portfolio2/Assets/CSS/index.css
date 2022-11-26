@@ -184,6 +184,13 @@ header {
     color: lightgray;
 }
 
+/*--------------------menu-hover-------------------*/
+
+.optMenu:hover {
+    opacity: 0.8;
+    transition: 0.2s;
+}
+
 /*===========================INICIO===========================*/
 
 #inicio {
@@ -558,11 +565,12 @@ span {
 
 /*----------menu-footer-hover----------*/
 
-.btnMenuFooter-a:hover {
+.btnMenuFooter:hover {
     opacity: 0.6;
+    transform: translateX(5px);
+    transition: all 0.3s;
+    width: fit-content;
 }
-
-
 
 /*===========================FOOTER===========================*/
 
@@ -596,6 +604,13 @@ footer {
 .copyright-img {
     width: 4rem;
     margin-left: 1rem;
+}
+
+/*----------footer-hover----------*/
+
+.contatos-img:hover {
+    width: 3.5em;
+    transition: 0.1s;
 }
 
 /*=====================MEDIA-QUERYS==================================*/
