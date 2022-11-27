@@ -6,116 +6,18 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="shortcut icon" href="/portfolios/Portfolio2/Assets/Utilitarios/IMG/logo.ico" type="image/x-icon">
-    <title>Help | Jv</title>
+    <link rel="stylesheet" href="/portfolios/Portfolio2/Assets/CSS/help.css">
+    <title>Help 1/2 | Jv</title>
 </head>
-<style>
-    * {
-        padding: 0;
-        margin: 0;
-    }
-
-    body {
-        background: rgba(49, 49, 49, 1);
-        background-image: linear-gradient(to left, rgb(70, 70, 70), rgba(30, 30, 30, 1));
-
-    }
-
-    @font-face {
-        font-family: sansationbold;
-        src: url('/portfolios/Portfolio2/Assets/Utilitarios/Fontes/sansation/Sansation_Light.ttf');
-    }
-
-    @font-face {
-        font-family: mssansserif;
-        src: url('/Portfolios/Portfolio2/Assets/Utilitarios/Fontes/montserrat/Montserrat-Light.otf ');
-    }
-
-    @font-face {
-        font-family: worksans;
-        src: url('/Portfolios/Portfolio2/Assets/Utilitarios/Fontes/worksans/WorkSans-Regular.ttf');
-    }
-
-    h1 {
-        font-size: 2rem;
-        text-align: left;
-        font-family: sansationbold;
-        color: white;
-        margin: 1rem 0rem 1rem 20rem;
-    }
-
-    h2 {
-        text-align: center;
-        font-family: mssansserif;
-        color: lightgray;
-        border-bottom: 1px solid rgba(255, 255, 255, 0.5);
-        margin: 0.5rem 2rem 0 2rem;
-        padding-bottom: 0.5rem;
-    }
-
-    .contentCenter {
-        display: flex;
-        align-items: center;
-        flex-direction: row;
-        justify-content: center;
-    }
-
-    .help {
-        position: absolute;
-        top: 55%;
-        left: 50%;
-        transform: translate(-50%, -50%);
-        width: 65vw;
-        box-shadow: 0px 2px 5px 1px rgba(0, 0, 0, 0.5);
-        border-radius: 5px;
-    }
-
-    .link-next {
-        position: absolute;
-        top: 50%;
-        right: 0%;
-    }
-
-    .next {
-        opacity: 0.8;
-        width: 10vw;
-        height: 10vw;
-    }
-
-    p,
-    a {
-        font-size: 1.5rem;
-        font-family: worksans;
-        color: greenyellow;
-        position: absolute;
-        right: 0.5rem;
-        bottom: 0.2rem;
-        width: max-content;
-        z-index: -2;
-    }
-
-    .next:hover {
-        opacity: 1;
-        cursor: pointer;
-    }
-
-    .help:hover {
-        width: 70vw;
-        box-shadow: 0px 2px 16px 5px rgba(0, 0, 0, 0.8);
-        transition: 0.5s;
-    }
-
-    p:hover {
-        opacity: 0.5;
-    }
-</style>
 
 <body>
     <h1>Olá visitante!</h1>
-    <h2>Este é o 1/2 passos, para visitar meu formulário de forma 100% gratuita.</h2>
+    <h2>Este é o 1/2 passos, para visitar meu formulário de forma 100% gratuita. <br> (clique na imagem)</h2>
     <div class="contentCenter">
-
-        <img class="help" src="/portfolios/Portfolio2/Assets/Utilitarios/IMG/help.jpg" alt="ajuda imagem 1">
-
+        <picture>
+            <source media="(max-width:650px)" srcset="/portfolios/Portfolio2/Assets/Utilitarios/IMG/help-resp.jpg">
+            <img class="help" src="/portfolios/Portfolio2/Assets/Utilitarios/IMG/help.jpg" alt="ajuda imagem 1">
+        </picture>
         <a class="link-next" href="/portfolios/Portfolio2/Assets/HTML/help2.html">
             <img class="next" src="/portfolios/Portfolio2/Assets/Utilitarios/IMG/next.png" alt="proximo">
         </a>
